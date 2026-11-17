@@ -1,0 +1,25 @@
+{
+  "printed_rows": 112,
+  "builder": 1,
+  "categories": {
+    "Vegetarian Appetizers": 15,
+    "Dosas": 12,
+    "Non-Vegetarian Appetizers": 17,
+    "Indian Breads": 12,
+    "Wraps": 4,
+    "Indo-Chinese Rice & Noodles": 9,
+    "Vegan Curries": 10,
+    "Vegetarian Curries": 9,
+    "Hyderabadi Biryani": 7,
+    "Desserts": 6,
+    "Drinks": 11,
+    "Non-Vegetarian Curries": 1
+  },
+  "price_to_confirm": [
+    "Lamb curry protein"
+  ],
+  "excluded": [
+    "Chef Special Fried Rice (crossed out)"
+  ],
+  "note": "See README for verification needs."
+}
