@@ -13,7 +13,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/chole-bhatura.jpg"
+    "image": "images/chole-bhatura.jpg",
+    "detailDescription": "A spiced chickpea curry served with two puffed, deep-fried breads. The bhature are golden on the outside and soft and airy inside, ready to tear and dip into the chole."
   },
   {
     "id": "printed-20261116-002",
@@ -27,7 +28,8 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/paneer-65.jpg"
+    "image": "images/paneer-65.jpg",
+    "detailDescription": "Crisp bites of paneer, a firm Indian cheese, seasoned South Indian style. The fried edges give way to a soft center, with a tangy, aromatic finish."
   },
   {
     "id": "printed-20261116-003",
@@ -41,7 +43,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/gobhi-manchurian.jpg"
+    "image": "images/gobhi-manchurian.jpg",
+    "detailDescription": "Crispy cauliflower florets tossed in a savory Indo-Chinese Manchurian sauce. The coating catches the sauce while the cauliflower stays tender inside."
   },
   {
     "id": "printed-20261116-004",
@@ -56,7 +59,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/gobi-65.jpg"
+    "image": "images/gobi-65.jpg",
+    "detailDescription": "Cauliflower florets fried until crisp and tossed with South Indian-style seasoning. The crunchy coating and tender center make these easy to share."
   },
   {
     "id": "printed-20261116-005",
@@ -70,41 +74,44 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/chilli-paneer.jpg"
+    "image": "images/chilli-paneer.jpg",
+    "detailDescription": "Pieces of paneer tossed with peppers in an Indo-Chinese chilli sauce. The soft cheese balances the savory sauce and the bite of the peppers."
   },
   {
     "id": "printed-20261116-006",
     "name": "Mix Veg Pakora",
     "price": 10.99,
     "category": "Vegetarian Appetizers",
-    "description": "Crispy fritters made with mixed vegetables and spices.",
+    "description": "Mixed vegetables fried in a seasoned chickpea-flour batter.",
     "emoji": "🥗",
     "tags": [
       "vegan",
       "vegetarian"
     ],
     "available": true,
-    "image": "images/mix-veg-pakora.jpg"
+    "image": "images/mix-veg-pakora.jpg",
+    "detailDescription": "Mixed vegetables are coated in seasoned gram flour (besan) batter and fried into crisp, golden fritters."
   },
   {
     "id": "printed-20261116-007",
     "name": "Pav Bhaji",
     "price": 10.99,
     "category": "Vegetarian Appetizers",
-    "description": "Mashed spiced vegetables served with soft pav bread.",
+    "description": "Mashed vegetable curry with toasted pav, onions, and lemon.",
     "emoji": "🥗",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/pav-bhaji.jpg"
+    "image": "images/pav-bhaji.jpg",
+    "detailDescription": "A Mumbai street-food favorite of mashed vegetables cooked with butter and spices. Served with soft toasted pav rolls, onions, and lemon."
   },
   {
     "id": "printed-20261116-008",
     "name": "Chilli Idli",
     "price": 10.99,
     "category": "Vegetarian Appetizers",
-    "description": "Bite-sized idli tossed in a spicy sauce.",
+    "description": "Fried idli bites tossed in an Indo-Chinese chilli sauce.",
     "emoji": "🥗",
     "tags": [
       "spicy",
@@ -112,34 +119,37 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/chilli-idli.jpg"
+    "image": "images/chilli-idli.jpg",
+    "detailDescription": "Steamed rice cakes are cut into bite-size pieces, fried until crisp, and tossed in a tangy Indo-Chinese chilli sauce."
   },
   {
     "id": "printed-20261116-009",
     "name": "Onion Pakora",
     "price": 9.99,
     "category": "Vegetarian Appetizers",
-    "description": "Crispy onion fritters.",
+    "description": "Crisp onion fritters in a seasoned chickpea-flour batter.",
     "emoji": "🥗",
     "tags": [
       "vegan",
       "vegetarian"
     ],
     "available": true,
-    "image": "images/onion-pakora.jpg"
+    "image": "images/onion-pakora.jpg",
+    "detailDescription": "Sliced onions are coated in seasoned gram flour (besan) batter and fried until crisp."
   },
   {
     "id": "printed-20261116-010",
     "name": "Papdi Chaat",
     "price": 9.99,
     "category": "Vegetarian Appetizers",
-    "description": "Crunchy wafers topped with tangy and savory chaat accompaniments.",
+    "description": "Crisp wafers with potatoes, chickpeas, yogurt, and tamarind chutney.",
     "emoji": "🥗",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/papdi-chaat.jpg"
+    "image": "images/papdi-chaat.jpg",
+    "detailDescription": "Crisp papdi wafers are topped with boiled potatoes, chickpeas, yogurt, tangy tamarind chutney, and spices."
   },
   {
     "id": "printed-20261116-011",
@@ -152,7 +162,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dahi-puri.jpg"
+    "image": "images/dahi-puri.jpg",
+    "detailDescription": "Eight crisp puris filled with spiced potatoes and chickpeas, topped with cool yogurt, tangy chutneys, and spices."
   },
   {
     "id": "printed-20261116-012",
@@ -165,21 +176,23 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/samosa-chaat.jpg"
+    "image": "images/samosa-chaat.jpg",
+    "detailDescription": "Flaky samosa broken into pieces and layered with tangy chaat toppings. The pastry, savory filling, and toppings give each bite a different texture."
   },
   {
     "id": "printed-20261116-013",
     "name": "Idly (3 pcs)",
     "price": 8.99,
     "category": "Vegetarian Appetizers",
-    "description": "Three soft steamed South Indian rice cakes.",
+    "description": "Three steamed South Indian rice-and-lentil cakes.",
     "emoji": "🥗",
     "tags": [
       "vegan",
       "vegetarian"
     ],
     "available": true,
-    "image": "images/idly.jpg"
+    "image": "images/idly.jpg",
+    "detailDescription": "Three soft, fluffy cakes steamed from fermented rice and urad dal batter. Served with coconut chutney and sambar."
   },
   {
     "id": "printed-20261116-014",
@@ -193,20 +206,22 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/pani-puri.jpg"
+    "image": "images/pani-puri.jpg",
+    "detailDescription": "Eight crisp, hollow puris served with tangy spiced water. Add the pani to a shell just before eating to enjoy the crunch and the burst of flavor together."
   },
   {
     "id": "printed-20261116-015",
     "name": "Samosa (2 pcs)",
     "price": 5.99,
     "category": "Vegetarian Appetizers",
-    "description": "Two flaky savory pastries with spiced filling.",
+    "description": "Two golden pastries filled with spiced potatoes and peas.",
     "emoji": "🥗",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/samosa.jpg"
+    "image": "images/samosa.jpg",
+    "detailDescription": "Two crisp, golden pastries filled with potatoes, peas, and aromatic herbs."
   },
   {
     "id": "printed-20261116-016",
@@ -217,7 +232,8 @@ window.SEED_MENU = [
     "emoji": "🥞",
     "tags": [],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A thin, crisp South Indian crepe wrapped around seasoned chicken tikka. The golden dosa gives way to a savory chicken filling."
   },
   {
     "id": "printed-20261116-017",
@@ -230,7 +246,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A crisp South Indian crepe folded around paneer tikka. The soft pieces of seasoned Indian cheese give the thin dosa a hearty filling."
   },
   {
     "id": "printed-20261116-018",
@@ -243,20 +260,22 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A thin dosa roasted with ghee until golden and crisp. The ghee gives the crepe a rich aroma and a delicate crunch."
   },
   {
     "id": "printed-20261116-019",
     "name": "Spring Masala Dosa",
     "price": 15.99,
     "category": "Dosas",
-    "description": "Dosa with a vegetable-forward masala filling.",
+    "description": "Crisp dosa with an Indo-Chinese-style vegetable filling.",
     "emoji": "🥞",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A crisp South Indian dosa filled with stir-fried vegetables and Indo-Chinese seasoning."
   },
   {
     "id": "printed-20261116-020",
@@ -269,7 +288,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A crisp crepe filled with onions and spiced potatoes. The onion adds a savory bite to the soft potato masala."
   },
   {
     "id": "printed-20261116-021",
@@ -283,7 +303,8 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A golden dosa dusted with podi, a South Indian ground seasoning. The podi adds a savory kick to the crisp crepe."
   },
   {
     "id": "printed-20261116-022",
@@ -294,34 +315,37 @@ window.SEED_MENU = [
     "emoji": "🥞",
     "tags": [],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A crisp dosa with egg and savory masala inside. The egg adds a soft, hearty layer to the thin South Indian crepe."
   },
   {
     "id": "printed-20261116-023",
     "name": "Andhra Masala Dosa",
     "price": 15.99,
     "category": "Dosas",
-    "description": "Spiced South Indian masala dosa with Andhra-style flavors.",
+    "description": "Crisp dosa with Andhra-style potato masala.",
     "emoji": "🥞",
     "tags": [
       "vegetarian",
       "spicy"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A thin South Indian dosa filled with a bold, tangy Andhra-style spiced potato masala."
   },
   {
     "id": "printed-20261116-024",
     "name": "Mysore Masala Dosa",
     "price": 14.99,
     "category": "Dosas",
-    "description": "Masala dosa with bold Mysore-style seasoning.",
+    "description": "Crisp dosa with Mysore chutney and spiced potatoes.",
     "emoji": "🥞",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A golden dosa spread with tangy Mysore-style chutney and folded around a savory potato masala."
   },
   {
     "id": "printed-20261116-025",
@@ -334,7 +358,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A thin South Indian crepe filled with melted cheese. The crisp exterior and soft center make this a rich variation on plain dosa."
   },
   {
     "id": "printed-20261116-026",
@@ -347,7 +372,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A thin, golden South Indian crepe wrapped around a soft spiced potato filling. The crisp shell and warm masala are the defining features of this classic."
   },
   {
     "id": "printed-20261116-027",
@@ -360,18 +386,20 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg"
+    "image": "images/dosa.jpg",
+    "detailDescription": "A thin, crisp crepe made from fermented rice and lentil batter. Its delicate texture and golden edges are the focus of this unfilled dosa."
   },
   {
     "id": "printed-20261116-028",
     "name": "Lamb Chops (5 pcs)",
     "price": 39.99,
     "category": "Non-Vegetarian Appetizers",
-    "description": "Five seasoned lamb chops prepared in Indian style.",
+    "description": "Five marinated lamb chops grilled in the tandoor.",
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/lamb-chops.jpg"
+    "image": "images/lamb-chops.jpg",
+    "detailDescription": "Five lamb chops marinated in aromatic Indian spices and grilled in the tandoor. Fresh herbs and a hint of lemon complement the smoky flavor."
   },
   {
     "id": "printed-20261116-029",
@@ -382,7 +410,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/lamb-seekh-kabab.jpg"
+    "image": "images/lamb-seekh-kabab.jpg",
+    "detailDescription": "Minced lamb mixed with fresh herbs, onions, and Indian spices, then shaped around skewers and roasted in the tandoor. Served with mint chutney and lemon."
   },
   {
     "id": "printed-20261116-030",
@@ -393,7 +422,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/beef-tikka-kabab.jpg"
+    "image": "images/beef-tikka-kabab.jpg",
+    "detailDescription": "Seasoned pieces of beef prepared tikka-style. The bite-size cuts are served as kababs for a hearty start to the meal."
   },
   {
     "id": "printed-20261116-031",
@@ -404,7 +434,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/chicken-seekh-kabab.jpg"
+    "image": "images/chicken-seekh-kabab.jpg",
+    "detailDescription": "Ground chicken mixed with onions, fresh herbs, and Indian spices, then skewered and roasted in the tandoor. Served with mint chutney and lemon."
   },
   {
     "id": "printed-20261116-032",
@@ -415,18 +446,20 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/tandoori-chicken.jpg"
+    "image": "images/tandoori-chicken.jpg",
+    "detailDescription": "Marinated chicken roasted tandoori-style. The aromatic seasoning and roasted exterior give way to tender chicken."
   },
   {
     "id": "printed-20261116-033",
     "name": "Apollo Shrimp",
     "price": 15.99,
     "category": "Non-Vegetarian Appetizers",
-    "description": "Shrimp prepared with bold South Indian-style seasoning.",
+    "description": "Stir-fried shrimp with chilli, garlic, and curry leaves.",
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/apollo-shrimp.jpg"
+    "image": "images/apollo-shrimp.jpg",
+    "detailDescription": "Shrimp is marinated South Indian style with chilli, garlic, and curry leaves, then stir-fried for a bold, savory finish."
   },
   {
     "id": "printed-20261116-034",
@@ -437,7 +470,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/shrimp-manchurian.jpg"
+    "image": "images/shrimp-manchurian.jpg",
+    "detailDescription": "Fried shrimp tossed in a savory Indo-Chinese Manchurian sauce. The coating holds the sauce and adds texture around the shrimp."
   },
   {
     "id": "printed-20261116-035",
@@ -450,7 +484,8 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/chilli-shrimp.jpg"
+    "image": "images/chilli-shrimp.jpg",
+    "detailDescription": "Crisp shrimp tossed in a tangy, savory Indo-Chinese chilli sauce. The sauce clings to the coating for a flavorful bite."
   },
   {
     "id": "printed-20261116-036",
@@ -461,7 +496,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/chicken-manchurian.jpg"
+    "image": "images/chicken-manchurian.jpg",
+    "detailDescription": "Fried chicken bites coated in a savory Indo-Chinese Manchurian sauce. The crisp coating soaks up the sauce around the tender center."
   },
   {
     "id": "printed-20261116-037",
@@ -472,7 +508,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/chicken-tikka.jpg"
+    "image": "images/chicken-tikka.jpg",
+    "detailDescription": "Marinated chicken pieces grilled until tender. The bite-size pieces highlight the seasoning and the smoky flavor of the grill."
   },
   {
     "id": "printed-20261116-038",
@@ -483,18 +520,20 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "images/chicken-malai-boti.jpg"
+    "image": "images/chicken-malai-boti.jpg",
+    "detailDescription": "Tender chicken pieces grilled with a creamy, mildly seasoned marinade. Malai refers to the rich, smooth character of the coating."
   },
   {
     "id": "printed-20261116-039",
     "name": "Apollo Fish",
     "price": 14.99,
     "category": "Non-Vegetarian Appetizers",
-    "description": "Fish prepared with bold South Indian-style seasoning.",
+    "description": "Lightly fried fish with curry leaves, green chillies, and garlic.",
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Fish fillets are marinated in masala, lightly fried, and tossed with curry leaves, green chillies, and garlic."
   },
   {
     "id": "printed-20261116-040",
@@ -505,7 +544,8 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Battered fish fried and tossed with savory Indo-Chinese Manchurian sauce. The coating carries the sauce around the tender fish."
   },
   {
     "id": "printed-20261116-041",
@@ -518,7 +558,8 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/chilli-fish.jpg"
+    "image": "images/chilli-fish.jpg",
+    "detailDescription": "Fried fish pieces tossed in an Indo-Chinese chilli sauce. The savory coating gives the fish a bright, tangy bite."
   },
   {
     "id": "printed-20261116-042",
@@ -531,7 +572,8 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/chicken-65.jpg"
+    "image": "images/chicken-65.jpg",
+    "detailDescription": "Bite-size pieces of chicken fried until crisp and finished with South Indian-style seasoning. The coating adds crunch around the tender chicken."
   },
   {
     "id": "printed-20261116-043",
@@ -544,20 +586,22 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/chilli-chicken.jpg"
+    "image": "images/chilli-chicken.jpg",
+    "detailDescription": "Crisp chicken pieces tossed in a savory Indo-Chinese chilli sauce. The sauce clings to the fried coating for a tangy finish."
   },
   {
     "id": "printed-20261116-044",
     "name": "Chicken 555 (Spicy)",
     "price": 12.99,
     "category": "Non-Vegetarian Appetizers",
-    "description": "Spicy, boldly seasoned chicken appetizer.",
+    "description": "Thin chicken strips sautéed with curry leaves, green chillies, and garlic.",
     "emoji": "🍢",
     "tags": [
       "spicy"
     ],
     "available": true,
-    "image": "images/chicken-555.jpg"
+    "image": "images/chicken-555.jpg",
+    "detailDescription": "Thin strips of chicken are sautéed with curry leaves, green chillies, garlic, and house spices for a bold South Indian-style starter."
   },
   {
     "id": "printed-20261116-045",
@@ -570,87 +614,94 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Two puffed, deep-fried breads with a golden outside and a soft, airy center. Tear them into pieces to scoop up curry or chole."
   },
   {
     "id": "printed-20261116-046",
     "name": "Garlic Cheese Naan",
     "price": 4.99,
     "category": "Indian Breads",
-    "description": "Naan bread topped with garlic and cheese.",
+    "description": "Mozzarella-stuffed naan topped with garlic and butter.",
     "emoji": "🫓",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Soft naan baked in the tandoor, stuffed with melted mozzarella, and finished with garlic and butter."
   },
   {
     "id": "printed-20261116-047",
     "name": "Chilli Cheese Naan",
     "price": 4.99,
     "category": "Indian Breads",
-    "description": "Naan bread topped with chili and cheese.",
+    "description": "Soft naan filled with cheese and green chillies.",
     "emoji": "🫓",
     "tags": [
       "vegetarian",
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Soft naan stuffed with melted cheese and green chillies. The rich cheese balances the bite of the chillies."
   },
   {
     "id": "printed-20261116-048",
     "name": "Butter Cheese Naan",
     "price": 4.99,
     "category": "Indian Breads",
-    "description": "Naan bread with butter and cheese.",
+    "description": "Cheese-stuffed naan brushed with butter.",
     "emoji": "🫓",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Soft tandoor-baked naan stuffed with melted cheese and brushed with butter for a rich finish."
   },
   {
     "id": "printed-20261116-049",
     "name": "Bullet Naan",
     "price": 3.99,
     "category": "Indian Breads",
-    "description": "Spicy naan with chili seasoning.",
+    "description": "Green chilli-stuffed naan brushed with butter.",
     "emoji": "🫓",
     "tags": [
       "vegetarian",
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Tandoor-baked naan filled with green chillies and brushed with butter. The soft bread has a bold chilli bite."
   },
   {
     "id": "printed-20261116-050",
     "name": "Roti Chapati (2 pcs)",
     "price": 3.99,
     "category": "Indian Breads",
-    "description": "Two traditional soft flatbreads.",
+    "description": "Two thin, soft whole-wheat chapatis.",
     "emoji": "🫓",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Two traditional unleavened whole-wheat flatbreads. They are thin, soft, and slightly chewy."
   },
   {
     "id": "printed-20261116-051",
     "name": "Tandoori Roti",
     "price": 3.99,
     "category": "Indian Breads",
-    "description": "Whole-wheat-style flatbread baked in a tandoor.",
+    "description": "Whole-wheat flatbread baked in a tandoor.",
     "emoji": "🫓",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Whole-wheat flatbread baked in a tandoor for a slightly chewy texture and a smoky finish."
   },
   {
     "id": "printed-20261116-052",
@@ -663,33 +714,36 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/malabar-parotta.jpg"
+    "image": "images/malabar-parotta.jpg",
+    "detailDescription": "Two Kerala-style flatbreads with flaky layers and a soft center. Pull them apart and dip the layers into curry."
   },
   {
     "id": "printed-20261116-053",
     "name": "Onion Kulcha",
     "price": 3.99,
     "category": "Indian Breads",
-    "description": "Soft Indian bread with onion filling.",
+    "description": "Tandoor-baked flatbread stuffed with spiced onions.",
     "emoji": "🫓",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "A soft, leavened flatbread stuffed with spiced onions and fresh herbs, then baked in the tandoor."
   },
   {
     "id": "printed-20261116-054",
     "name": "Garlic Naan",
     "price": 3.49,
     "category": "Indian Breads",
-    "description": "Soft naan with garlic.",
+    "description": "Tandoor-baked naan topped with garlic and brushed with butter.",
     "emoji": "🫓",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/garlic-naan.jpg"
+    "image": "images/garlic-naan.jpg",
+    "detailDescription": "Soft naan baked in the tandoor, topped with fresh garlic, and brushed with butter for a fragrant finish."
   },
   {
     "id": "printed-20261116-055",
@@ -702,7 +756,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Traditional naan brushed with butter for a rich finish. The bread stays soft and easy to tear alongside curry."
   },
   {
     "id": "printed-20261116-056",
@@ -715,7 +770,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Classic tandoor-baked naan with a soft center and lightly crisp edges. Its mild flavor pairs with a wide range of curries."
   },
   {
     "id": "printed-20261116-057",
@@ -726,31 +782,34 @@ window.SEED_MENU = [
     "emoji": "🌯",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Seasoned beef folded into a soft flatbread. The wrap makes the savory filling easy to eat by hand."
   },
   {
     "id": "printed-20261116-058",
     "name": "Chicken Wrap",
     "price": 12.99,
     "category": "Wraps",
-    "description": "Seasoned chicken wrapped in flatbread.",
+    "description": "Chicken tikka wrapped in soft flatbread.",
     "emoji": "🌯",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Seasoned chicken tikka is rolled in soft flatbread for a handheld meal."
   },
   {
     "id": "printed-20261116-059",
     "name": "Paneer Wrap",
     "price": 12.99,
     "category": "Wraps",
-    "description": "Paneer wrapped in flatbread.",
+    "description": "Paneer tikka wrapped in soft flatbread.",
     "emoji": "🌯",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Seasoned paneer tikka is folded into soft flatbread for a hearty handheld meal."
   },
   {
     "id": "printed-20261116-060",
@@ -761,7 +820,8 @@ window.SEED_MENU = [
     "emoji": "🌯",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Creamy, mildly seasoned chicken pieces rolled in flatbread. The soft bread wraps around the tender malai boti filling."
   },
   {
     "id": "printed-20261116-061",
@@ -772,18 +832,20 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": "images/shrimp-noodles.jpg"
+    "image": "images/shrimp-noodles.jpg",
+    "detailDescription": "Noodles stir-fried with shrimp in the Indo-Chinese style. The shrimp adds a light sweetness to the savory noodles."
   },
   {
     "id": "printed-20261116-062",
     "name": "Shrimp Fried Rice",
     "price": 15.99,
     "category": "Indo-Chinese Rice & Noodles",
-    "description": "Wok-fried rice with shrimp.",
+    "description": "Wok-fried rice with shrimp and vegetables.",
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Tender shrimp, rice, and vegetables are stir-fried together in an Indo-Chinese-style preparation."
   },
   {
     "id": "printed-20261116-063",
@@ -794,40 +856,44 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": "images/chicken-noodles.jpg"
+    "image": "images/chicken-noodles.jpg",
+    "detailDescription": "Noodles tossed with chicken in a hot wok. The stir-fry brings the savory seasoning and tender chicken together in each bite."
   },
   {
     "id": "printed-20261116-064",
     "name": "Chicken Fried Rice",
     "price": 14.99,
     "category": "Indo-Chinese Rice & Noodles",
-    "description": "Wok-fried rice with chicken.",
+    "description": "Wok-fried rice with chicken and mixed vegetables.",
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Pieces of chicken and mixed vegetables are tossed with rice in a hot wok for a savory finish."
   },
   {
     "id": "printed-20261116-065",
     "name": "Egg Noodles",
     "price": 13.99,
     "category": "Indo-Chinese Rice & Noodles",
-    "description": "Stir-fried noodles with egg.",
+    "description": "Egg noodles stir-fried with savory seasoning.",
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Soft, slightly chewy noodles made with egg and tossed in the wok with savory seasoning."
   },
   {
     "id": "printed-20261116-066",
     "name": "Egg Fried Rice",
     "price": 13.99,
     "category": "Indo-Chinese Rice & Noodles",
-    "description": "Fried rice with egg.",
+    "description": "Wok-fried rice with scrambled egg and vegetables.",
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Scrambled egg and vegetables are tossed through seasoned rice in a hot wok."
   },
   {
     "id": "printed-20261116-067",
@@ -840,7 +906,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/vegetable-noodles.jpg"
+    "image": "images/vegetable-noodles.jpg",
+    "detailDescription": "Noodles stir-fried with vegetables in the Indo-Chinese style. The vegetables add texture to the savory noodles."
   },
   {
     "id": "printed-20261116-068",
@@ -853,7 +920,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Rice tossed in a hot wok with mixed vegetables. The vegetables bring color and texture to the seasoned rice."
   },
   {
     "id": "printed-20261116-069",
@@ -866,7 +934,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "South Indian-style rice seasoned with lemon. The citrus gives the spiced grains a bright, tangy finish."
   },
   {
     "id": "printed-20261116-070",
@@ -880,76 +949,82 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": "images/mixed-vegetable-coconut-korma.jpg"
+    "image": "images/mixed-vegetable-coconut-korma.jpg",
+    "detailDescription": "Mixed vegetables are simmered in a creamy coconut sauce with cashews, mild spices, and herbs."
   },
   {
     "id": "printed-20261116-071",
     "name": "Dal Makhani (Ask for Vegan Option)",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Slow-cooked lentils; request the vegan preparation from staff.",
+    "description": "Slow-cooked black lentils and kidney beans. Ask about the vegan preparation.",
     "emoji": "🥘",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dal-makhani-vegan-option.jpg"
+    "image": "images/dal-makhani-vegan-option.jpg",
+    "detailDescription": "Black lentils and kidney beans are cooked until tender with aromatic spices. Ask City of Spice staff about the coconut-cream preparation."
   },
   {
     "id": "printed-20261116-072",
     "name": "Baingan Bharta",
     "price": 15.99,
     "category": "Vegan Curries",
-    "description": "Smoky mashed eggplant cooked with spices.",
+    "description": "Fire-roasted eggplant mashed and simmered with onions and tomatoes.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/baingan-bharta.jpg"
+    "image": "images/baingan-bharta.jpg",
+    "detailDescription": "Fire-roasted eggplant is mashed and slow-cooked with onions, tomatoes, garlic, ginger, and aromatic spices for a smoky finish."
   },
   {
     "id": "printed-20261116-073",
     "name": "Baghaar-e-Baingan",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Eggplant simmered in rich Hyderabadi-style spiced gravy.",
+    "description": "Baby eggplants in a tangy peanut, sesame, and tamarind gravy.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/baghaar-e-baingan.jpg"
+    "image": "images/baghaar-e-baingan.jpg",
+    "detailDescription": "Baby eggplants are simmered in a Hyderabadi gravy made with peanuts, sesame seeds, coconut, and tamarind. The sauce is tangy and nutty."
   },
   {
     "id": "printed-20261116-074",
     "name": "Bhindi Masala (Okra)",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Okra cooked with aromatic spices.",
+    "description": "Okra stir-fried with onions, tomatoes, and spices.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/bhindi-masala.jpg"
+    "image": "images/bhindi-masala.jpg",
+    "detailDescription": "Tender okra is stir-fried with onions, tomatoes, ginger, garlic, and traditional Indian spices."
   },
   {
     "id": "printed-20261116-075",
     "name": "Daal Tadka",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Cooked lentils topped with a flavorful spice tempering.",
+    "description": "Creamy yellow lentils finished with a hot spice tempering.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/daal-tadka.jpg"
+    "image": "images/daal-tadka.jpg",
+    "detailDescription": "Yellow lentils are slow-cooked until creamy, then tempered with garlic, cumin, onions, and red chillies."
   },
   {
     "id": "printed-20261116-076",
@@ -963,101 +1038,109 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": "images/aloo-gobi.jpg"
+    "image": "images/aloo-gobi.jpg",
+    "detailDescription": "Potatoes and cauliflower cooked together with Indian spices. Soft pieces of potato balance the texture of the cauliflower."
   },
   {
     "id": "printed-20261116-077",
     "name": "Aloo Palak",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Potatoes in spinach-based curry.",
+    "description": "Tender potatoes simmered in a spiced spinach gravy.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/aloo-palak.jpg"
+    "image": "images/aloo-palak.jpg",
+    "detailDescription": "Tender potatoes are simmered in a spinach gravy flavored with garlic, ginger, and aromatic Indian spices."
   },
   {
     "id": "printed-20261116-078",
     "name": "Chana Masala",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Chickpeas in fragrant spiced gravy.",
+    "description": "Chickpeas simmered in a tangy tomato and onion gravy.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/chana-masala.jpg"
+    "image": "images/chana-masala.jpg",
+    "detailDescription": "Chickpeas simmer in a tangy tomato and onion gravy seasoned with ginger, garlic, and aromatic spices."
   },
   {
     "id": "printed-20261116-079",
     "name": "Chana Saag",
     "price": 14.99,
     "category": "Vegan Curries",
-    "description": "Chickpeas in leafy-green curry.",
+    "description": "Chickpeas simmered in a spinach curry.",
     "emoji": "🥘",
     "tags": [
       "vegetarian",
       "vegan"
     ],
     "available": true,
-    "image": "images/chana-saag.jpg"
+    "image": "images/chana-saag.jpg",
+    "detailDescription": "Chickpeas and spinach simmer together with aromatic spices. The chickpeas bring a firm bite to the soft greens."
   },
   {
     "id": "printed-20261116-080",
     "name": "Navratan Korma",
     "price": 16.99,
     "category": "Vegetarian Curries",
-    "description": "Assorted vegetables in creamy, mildly spiced korma sauce.",
+    "description": "Vegetables, fruits, and nuts in a creamy cashew and yogurt sauce.",
     "emoji": "🍛",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/navratan-korma.jpg"
+    "image": "images/navratan-korma.jpg",
+    "detailDescription": "A medley of vegetables, fruits, and nuts is simmered in a mildly spiced sauce made with cashews and yogurt."
   },
   {
     "id": "printed-20261116-081",
     "name": "Mixed Vegetable Tikka Masala",
     "price": 15.99,
     "category": "Vegetarian Curries",
-    "description": "Mixed vegetables in tikka masala-style gravy.",
+    "description": "Roasted vegetables in a creamy tomato masala.",
     "emoji": "🍛",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/mixed-vegetable-tikka-masala.jpg"
+    "image": "images/mixed-vegetable-tikka-masala.jpg",
+    "detailDescription": "Mixed vegetables are roasted and simmered in a creamy tomato masala flavored with ginger, garlic, and aromatic Indian spices."
   },
   {
     "id": "printed-20261116-082",
     "name": "Kadai Paneer",
     "price": 15.99,
     "category": "Vegetarian Curries",
-    "description": "Paneer in a savory kadai-style masala.",
+    "description": "Paneer and bell peppers in a savory kadai-style masala.",
     "emoji": "🍛",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/kadai-paneer.jpg"
+    "image": "images/kadai-paneer.jpg",
+    "detailDescription": "Paneer cubes and bell peppers are cooked in a tangy tomato-and-onion gravy with aromatic spices."
   },
   {
     "id": "printed-20261116-083",
     "name": "Malai Kofta",
     "price": 14.99,
     "category": "Vegetarian Curries",
-    "description": "Soft dumplings served in creamy spiced gravy.",
+    "description": "Soft kofta dumplings in a creamy tomato gravy.",
     "emoji": "🍛",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/malai-kofta.jpg"
+    "image": "images/malai-kofta.jpg",
+    "detailDescription": "Tender kofta dumplings are served in a rich, gently spiced tomato gravy with a creamy finish."
   },
   {
     "id": "printed-20261116-084",
@@ -1070,7 +1153,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/palak-paneer.jpg"
+    "image": "images/palak-paneer.jpg",
+    "detailDescription": "Cubes of paneer simmered in a spinach-based curry. The mild cheese stands out against the smooth greens."
   },
   {
     "id": "printed-20261116-085",
@@ -1083,20 +1167,22 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/paneer-tikka-masala.jpg"
+    "image": "images/paneer-tikka-masala.jpg",
+    "detailDescription": "Seasoned paneer pieces in a spiced tomato-based gravy. The tender cheese keeps its shape in the rich tikka masala sauce."
   },
   {
     "id": "printed-20261116-086",
     "name": "Dal Makhani",
     "price": 14.99,
     "category": "Vegetarian Curries",
-    "description": "Slow-cooked creamy black lentils.",
+    "description": "Slow-cooked black lentils and kidney beans in a creamy sauce.",
     "emoji": "🍛",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dal-makhani.jpg"
+    "image": "images/dal-makhani.jpg",
+    "detailDescription": "Whole black lentils and kidney beans are slow-cooked with aromatic spices, butter, and cream for a rich, thick curry."
   },
   {
     "id": "printed-20261116-087",
@@ -1109,20 +1195,22 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/butter-paneer-masala.jpg"
+    "image": "images/butter-paneer-masala.jpg",
+    "detailDescription": "Paneer cubes in a buttery tomato-style sauce. The mild cheese and smooth gravy give the curry a rich finish."
   },
   {
     "id": "printed-20261116-088",
     "name": "Mutter Paneer Masala",
     "price": 14.99,
     "category": "Vegetarian Curries",
-    "description": "Paneer and peas cooked in aromatic gravy.",
+    "description": "Paneer and green peas in a spiced tomato gravy.",
     "emoji": "🍛",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/mutter-paneer-masala.jpg"
+    "image": "images/mutter-paneer-masala.jpg",
+    "detailDescription": "Paneer cubes and green peas are cooked in a tomato-based gravy flavored with ginger, garlic, and Indian spices."
   },
   {
     "id": "printed-20261116-089",
@@ -1133,7 +1221,8 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/lamb-biryani.jpg"
+    "image": "images/lamb-biryani.jpg",
+    "detailDescription": "Aromatic basmati rice layered with seasoned lamb. The spices flavor both the long grains and the tender pieces of lamb."
   },
   {
     "id": "printed-20261116-090",
@@ -1144,7 +1233,8 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/goat-dum-biryani.jpg"
+    "image": "images/goat-dum-biryani.jpg",
+    "detailDescription": "Goat and basmati rice slow-cooked together in the dum style. The covered cooking method lets the aromas infuse the meat and rice."
   },
   {
     "id": "printed-20261116-091",
@@ -1155,7 +1245,8 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Aromatic basmati rice layered with paneer and biryani spices. The pieces of Indian cheese add a tender bite to the long-grain rice."
   },
   {
     "id": "printed-20261116-092",
@@ -1166,7 +1257,8 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Fragrant biryani rice with pieces of boneless chicken. The chicken and aromatic spices season the long grains throughout."
   },
   {
     "id": "printed-20261116-093",
@@ -1177,18 +1269,20 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/chicken-dum-biryani.jpg"
+    "image": "images/chicken-dum-biryani.jpg",
+    "detailDescription": "Chicken and spiced basmati rice cooked together in the dum style. The covered cooking method lets the flavor of the chicken and spices infuse the rice."
   },
   {
     "id": "printed-20261116-094",
     "name": "Egg Biryani",
     "price": 15.99,
     "category": "Hyderabadi Biryani",
-    "description": "Aromatic spiced rice with egg.",
+    "description": "Aromatic basmati rice with boiled eggs and spices.",
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/egg-biryani.jpg"
+    "image": "images/egg-biryani.jpg",
+    "detailDescription": "Boiled eggs are served with fragrant basmati rice seasoned with spices and herbs."
   },
   {
     "id": "printed-20261116-095",
@@ -1199,59 +1293,64 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Vegetables and basmati rice cooked in the dum style. The covered cooking method lets the spices perfume the rice as the vegetables soften."
   },
   {
     "id": "printed-20261116-096",
     "name": "Kaddu Ki Kheer (12 oz)",
     "price": 7.99,
     "category": "Desserts",
-    "description": "Traditional pumpkin dessert kheer, 12 oz.",
+    "description": "Creamy Hyderabadi bottle gourd kheer, 12 oz.",
     "emoji": "🍮",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/kaddu-ki-kheer.jpg"
+    "image": "images/kaddu-ki-kheer.jpg",
+    "detailDescription": "A traditional Hyderabadi dessert made with grated bottle gourd slow-cooked in milk, sugar, and aromatic spices. The kheer is mildly sweet and creamy, with a garnish of nuts and saffron. Served in a 12 oz portion."
   },
   {
     "id": "printed-20261116-097",
     "name": "Rice Kheer (12 oz)",
     "price": 7.99,
     "category": "Desserts",
-    "description": "Creamy rice pudding with Indian spices, 12 oz.",
+    "description": "Creamy rice pudding with cardamom, saffron, nuts, and raisins, 12 oz.",
     "emoji": "🍮",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/rice-kheer.jpg"
+    "image": "images/rice-kheer.jpg",
+    "detailDescription": "Rice is slow-cooked in milk with sugar, cardamom, and a touch of saffron, then finished with roasted nuts and raisins. Served in a 12 oz portion."
   },
   {
     "id": "printed-20261116-098",
     "name": "Saffron Kheer (12 oz)",
     "price": 7.99,
     "category": "Desserts",
-    "description": "Creamy saffron-flavored kheer, 12 oz.",
+    "description": "Creamy rice kheer flavored with saffron, 12 oz.",
     "emoji": "🍮",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/saffron-kheer.jpg"
+    "image": "images/saffron-kheer.jpg",
+    "detailDescription": "Rice is simmered in milk with sugar and infused with saffron and cardamom, then topped with roasted nuts. Served in a 12 oz portion."
   },
   {
     "id": "printed-20261116-099",
     "name": "Gajar (Carrot) Ka Halwa (12 oz)",
     "price": 6.99,
     "category": "Desserts",
-    "description": "Traditional warm carrot dessert, 12 oz.",
+    "description": "Warm carrot halwa with cardamom, nuts, and raisins, 12 oz.",
     "emoji": "🍮",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/gajar-ka-halwa.jpg"
+    "image": "images/gajar-ka-halwa.jpg",
+    "detailDescription": "Grated carrots are slow-cooked in milk, sugar, and ghee, flavored with cardamom, and finished with roasted nuts and raisins. Served warm in a 12 oz portion."
   },
   {
     "id": "printed-20261116-100",
@@ -1264,7 +1363,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/gulab-jamun.jpg"
+    "image": "images/gulab-jamun.jpg",
+    "detailDescription": "Three golden, fried milk-solid dumplings soaked in warm sugar syrup infused with cardamom and rose water."
   },
   {
     "id": "printed-20261116-101",
@@ -1277,7 +1377,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/ras-malai.jpg"
+    "image": "images/ras-malai.jpg",
+    "detailDescription": "Three soft cheese patties soaked in chilled, sweetened milk flavored with cardamom and saffron, garnished with pistachios and almonds."
   },
   {
     "id": "printed-20261116-102",
@@ -1290,7 +1391,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/falooda.jpg"
+    "image": "images/falooda.jpg",
+    "detailDescription": "A chilled Indian dessert drink with a sweet, creamy base. It can be sipped or enjoyed by the spoonful."
   },
   {
     "id": "printed-20261116-103",
@@ -1303,7 +1405,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/mango-lassi.jpg"
+    "image": "images/mango-lassi.jpg",
+    "detailDescription": "A chilled yogurt drink blended with mango. The fruit gives the lassi a sweet, smooth finish over the tang of yogurt."
   },
   {
     "id": "printed-20261116-104",
@@ -1316,7 +1419,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "A chilled yogurt drink with a sweet finish. Its smooth, creamy texture makes it a refreshing accompaniment to the meal."
   },
   {
     "id": "printed-20261116-105",
@@ -1329,20 +1433,22 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "A chilled, savory yogurt drink seasoned with salt. The light saltiness balances the natural tang of the yogurt."
   },
   {
     "id": "printed-20261116-106",
     "name": "Madras Coffee",
     "price": 3.99,
     "category": "Drinks",
-    "description": "Traditional South Indian-style coffee.",
+    "description": "South Indian filter coffee with milk.",
     "emoji": "🥤",
     "tags": [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/madras-coffee.jpg"
+    "image": "images/madras-coffee.jpg",
+    "detailDescription": "Strong South Indian filter coffee blended with hot milk for a smooth, aromatic finish."
   },
   {
     "id": "printed-20261116-107",
@@ -1355,7 +1461,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "Mexican Coca-Cola with the familiar fizzy cola flavor. Choose this separately from the soft drink selection."
   },
   {
     "id": "printed-20261116-108",
@@ -1368,7 +1475,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "",
+    "detailDescription": "A sweet apple drink with a mellow fruit flavor. A still drink option alongside the carbonated soft drinks."
   },
   {
     "id": "printed-20261116-109",
@@ -1381,7 +1489,8 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/irani-chai.jpg"
+    "image": "images/irani-chai.jpg",
+    "detailDescription": "A rich, creamy tea in the Irani style popular in Hyderabad. The tea has a full flavor and smooth finish."
   },
   {
     "id": "printed-20261116-110",
@@ -1401,7 +1510,8 @@ window.SEED_MENU = [
       "Coke Zero",
       "Diet Coke",
       "Fanta"
-    ]
+    ],
+    "detailDescription": "Choose classic Coca-Cola, Coke Zero, Diet Coke, or orange Fanta from the dropdown."
   },
   {
     "id": "printed-20261116-111",
@@ -1419,7 +1529,8 @@ window.SEED_MENU = [
     "choices": [
       "Thums Up",
       "Limca"
-    ]
+    ],
+    "detailDescription": "Choose Thums Up for a bold cola taste or Limca for a bright lemon-lime flavor."
   },
   {
     "id": "printed-20261116-112",
@@ -1438,7 +1549,8 @@ window.SEED_MENU = [
       "Dr Pepper",
       "Sprite",
       "Ginger Ale"
-    ]
+    ],
+    "detailDescription": "Choose Dr Pepper, lemon-lime Sprite, or ginger ale from the dropdown."
   },
   {
     "id": "curry-builder",
@@ -1450,6 +1562,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/non-vegetarian-curry.jpg",
-    "special": "curry"
+    "special": "curry",
+    "detailDescription": "Choose a protein and one of 12 curry sauces. Select a sauce to read more about its flavor and preparation before adding your combination."
   }
 ];
