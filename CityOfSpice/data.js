@@ -5,7 +5,7 @@ window.SEED_MENU = [
   {
     "id": "printed-20261116-001",
     "name": "Chole Bhature (2 pcs)",
-    "price": 13.77,
+    "price": 13.99,
     "category": "Vegetarian Appetizers",
     "description": "Spiced chickpea curry served with two fluffy bhature breads.",
     "emoji": "🥗",
