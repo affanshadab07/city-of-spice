@@ -191,7 +191,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/idly.jpg",
+    "image": "images/idli-menu.jpg",
     "detailDescription": "Three soft, fluffy cakes steamed from fermented rice and urad dal batter. Served with coconut chutney and sambar."
   },
   {
