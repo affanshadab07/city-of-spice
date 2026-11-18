@@ -217,7 +217,7 @@ window.SEED_MENU = [
     "emoji": "🥞",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-017",
@@ -230,7 +230,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-018",
@@ -243,7 +243,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/ghee-roast-dosa.jpg"
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-019",
@@ -256,7 +256,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-020",
@@ -269,7 +269,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-021",
@@ -283,7 +283,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-022",
@@ -294,7 +294,7 @@ window.SEED_MENU = [
     "emoji": "🥞",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-023",
@@ -308,7 +308,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-024",
@@ -321,7 +321,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-025",
@@ -334,7 +334,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-026",
@@ -347,7 +347,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/masala-dosa.jpg"
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-027",
@@ -360,7 +360,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/plain-dosa.jpg"
+    "image": "images/dosa.jpg"
   },
   {
     "id": "printed-20261116-028",
