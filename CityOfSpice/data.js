@@ -148,7 +148,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/papdi-chaat.jpg",
+    "image": "images/papdi-chaat-menu.jpg",
     "detailDescription": "Crisp papdi wafers are topped with boiled potatoes, chickpeas, yogurt, tangy tamarind chutney, and spices."
   },
   {
@@ -162,7 +162,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dahi-puri.jpg",
+    "image": "images/dahi-puri-menu.jpg",
     "detailDescription": "Eight crisp puris filled with spiced potatoes and chickpeas, topped with cool yogurt, tangy chutneys, and spices."
   },
   {
@@ -274,7 +274,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg",
+    "image": "images/spring-masala-dosa.jpg",
     "detailDescription": "A crisp South Indian dosa filled with stir-fried vegetables and Indo-Chinese seasoning."
   },
   {
@@ -288,7 +288,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg",
+    "image": "images/onion-masala-dosa.jpg",
     "detailDescription": "A crisp crepe filled with onions and spiced potatoes. The onion adds a savory bite to the soft potato masala."
   },
   {
@@ -358,7 +358,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg",
+    "image": "images/cheese-dosa.jpg",
     "detailDescription": "A thin South Indian crepe filled with melted cheese. The crisp exterior and soft center make this a rich variation on plain dosa."
   },
   {
@@ -386,7 +386,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/dosa.jpg",
+    "image": "images/plain-dosa-menu.jpg",
     "detailDescription": "A thin, crisp crepe made from fermented rice and lentil batter. Its delicate texture and golden edges are the focus of this unfilled dosa."
   },
   {
@@ -657,7 +657,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/butter-cheese-naan.jpg",
     "detailDescription": "Soft tandoor-baked naan stuffed with melted cheese and brushed with butter for a rich finish."
   },
   {
@@ -672,7 +672,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "",
+    "image": "images/bullet-naan.jpg",
     "detailDescription": "Tandoor-baked naan filled with green chillies and brushed with butter. The soft bread has a bold chilli bite."
   },
   {
@@ -728,7 +728,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/onion-kulcha.jpg",
     "detailDescription": "A soft, leavened flatbread stuffed with spiced onions and fresh herbs, then baked in the tandoor."
   },
   {
@@ -742,7 +742,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/garlic-naan.jpg",
+    "image": "images/garlic-naan-menu.jpg",
     "detailDescription": "Soft naan baked in the tandoor, topped with fresh garlic, and brushed with butter for a fragrant finish."
   },
   {
@@ -1281,7 +1281,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/egg-biryani.jpg",
+    "image": "images/egg-biryani-menu.jpg",
     "detailDescription": "Boiled eggs are served with fragrant basmati rice seasoned with spices and herbs."
   },
   {
@@ -1363,7 +1363,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/gulab-jamun.jpg",
+    "image": "images/gulab-jamun-menu.jpg",
     "detailDescription": "Three golden, fried milk-solid dumplings soaked in warm sugar syrup infused with cardamom and rose water."
   },
   {
