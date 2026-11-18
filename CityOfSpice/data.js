@@ -13,7 +13,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chole-bhatura.jpg"
   },
   {
     "id": "printed-20261116-002",
@@ -27,7 +27,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/paneer-65.jpg"
   },
   {
     "id": "printed-20261116-003",
@@ -41,7 +41,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/gobhi-manchurian.jpg"
   },
   {
     "id": "printed-20261116-004",
@@ -56,7 +56,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/gobi-65.jpg"
   },
   {
     "id": "printed-20261116-005",
@@ -70,7 +70,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chilli-paneer.jpg"
   },
   {
     "id": "printed-20261116-006",
@@ -84,7 +84,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/mix-veg-pakora.jpg"
   },
   {
     "id": "printed-20261116-007",
@@ -97,7 +97,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/pav-bhaji.jpg"
   },
   {
     "id": "printed-20261116-008",
@@ -112,7 +112,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chilli-idli.jpg"
   },
   {
     "id": "printed-20261116-009",
@@ -126,7 +126,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/onion-pakora.jpg"
   },
   {
     "id": "printed-20261116-010",
@@ -139,7 +139,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/papdi-chaat.jpg"
   },
   {
     "id": "printed-20261116-011",
@@ -152,7 +152,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dahi-puri.jpg"
   },
   {
     "id": "printed-20261116-012",
@@ -165,7 +165,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/samosa-chaat.jpg"
   },
   {
     "id": "printed-20261116-013",
@@ -179,7 +179,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/idly.jpg"
   },
   {
     "id": "printed-20261116-014",
@@ -193,7 +193,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/pani-puri.jpg"
   },
   {
     "id": "printed-20261116-015",
@@ -206,7 +206,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/samosa.jpg"
   },
   {
     "id": "printed-20261116-016",
@@ -243,7 +243,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/ghee-roast-dosa.jpg"
   },
   {
     "id": "printed-20261116-019",
@@ -347,7 +347,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/masala-dosa.jpg"
   },
   {
     "id": "printed-20261116-027",
@@ -360,7 +360,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/plain-dosa.jpg"
   },
   {
     "id": "printed-20261116-028",
@@ -371,7 +371,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/lamb-chops.jpg"
   },
   {
     "id": "printed-20261116-029",
@@ -382,7 +382,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/lamb-seekh-kabab.jpg"
   },
   {
     "id": "printed-20261116-030",
@@ -393,7 +393,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/beef-tikka-kabab.jpg"
   },
   {
     "id": "printed-20261116-031",
@@ -404,7 +404,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/chicken-seekh-kabab.jpg"
   },
   {
     "id": "printed-20261116-032",
@@ -415,7 +415,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/tandoori-chicken.jpg"
   },
   {
     "id": "printed-20261116-033",
@@ -426,7 +426,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/apollo-shrimp.jpg"
   },
   {
     "id": "printed-20261116-034",
@@ -437,7 +437,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/shrimp-manchurian.jpg"
   },
   {
     "id": "printed-20261116-035",
@@ -450,7 +450,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chilli-shrimp.jpg"
   },
   {
     "id": "printed-20261116-036",
@@ -461,7 +461,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/chicken-manchurian.jpg"
   },
   {
     "id": "printed-20261116-037",
@@ -472,7 +472,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/chicken-tikka.jpg"
   },
   {
     "id": "printed-20261116-038",
@@ -483,7 +483,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/chicken-malai-boti.jpg"
   },
   {
     "id": "printed-20261116-039",
@@ -518,7 +518,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chilli-fish.jpg"
   },
   {
     "id": "printed-20261116-042",
@@ -531,7 +531,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chicken-65.jpg"
   },
   {
     "id": "printed-20261116-043",
@@ -544,7 +544,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chilli-chicken.jpg"
   },
   {
     "id": "printed-20261116-044",
@@ -557,7 +557,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chicken-555.jpg"
   },
   {
     "id": "printed-20261116-045",
@@ -663,7 +663,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/malabar-parotta.jpg"
   },
   {
     "id": "printed-20261116-053",
@@ -689,7 +689,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/garlic-naan.jpg"
   },
   {
     "id": "printed-20261116-055",
@@ -772,7 +772,7 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/shrimp-noodles.jpg"
   },
   {
     "id": "printed-20261116-062",
@@ -794,7 +794,7 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/chicken-noodles.jpg"
   },
   {
     "id": "printed-20261116-064",
@@ -840,7 +840,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/vegetable-noodles.jpg"
   },
   {
     "id": "printed-20261116-068",
@@ -880,7 +880,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/mixed-vegetable-coconut-korma.jpg"
   },
   {
     "id": "printed-20261116-071",
@@ -893,7 +893,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dal-makhani-vegan-option.jpg"
   },
   {
     "id": "printed-20261116-072",
@@ -907,7 +907,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/baingan-bharta.jpg"
   },
   {
     "id": "printed-20261116-073",
@@ -921,7 +921,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/baghaar-e-baingan.jpg"
   },
   {
     "id": "printed-20261116-074",
@@ -935,7 +935,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/bhindi-masala.jpg"
   },
   {
     "id": "printed-20261116-075",
@@ -949,7 +949,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/daal-tadka.jpg"
   },
   {
     "id": "printed-20261116-076",
@@ -963,7 +963,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/aloo-gobi.jpg"
   },
   {
     "id": "printed-20261116-077",
@@ -977,7 +977,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/aloo-palak.jpg"
   },
   {
     "id": "printed-20261116-078",
@@ -991,7 +991,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chana-masala.jpg"
   },
   {
     "id": "printed-20261116-079",
@@ -1005,7 +1005,7 @@ window.SEED_MENU = [
       "vegan"
     ],
     "available": true,
-    "image": ""
+    "image": "images/chana-saag.jpg"
   },
   {
     "id": "printed-20261116-080",
@@ -1018,7 +1018,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/navratan-korma.jpg"
   },
   {
     "id": "printed-20261116-081",
@@ -1031,7 +1031,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/mixed-vegetable-tikka-masala.jpg"
   },
   {
     "id": "printed-20261116-082",
@@ -1044,7 +1044,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/kadai-paneer.jpg"
   },
   {
     "id": "printed-20261116-083",
@@ -1057,7 +1057,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/malai-kofta.jpg"
   },
   {
     "id": "printed-20261116-084",
@@ -1070,7 +1070,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/palak-paneer.jpg"
   },
   {
     "id": "printed-20261116-085",
@@ -1083,7 +1083,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/paneer-tikka-masala.jpg"
   },
   {
     "id": "printed-20261116-086",
@@ -1096,7 +1096,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/dal-makhani.jpg"
   },
   {
     "id": "printed-20261116-087",
@@ -1109,7 +1109,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/butter-paneer-masala.jpg"
   },
   {
     "id": "printed-20261116-088",
@@ -1122,7 +1122,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/mutter-paneer-masala.jpg"
   },
   {
     "id": "printed-20261116-089",
@@ -1133,7 +1133,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/lamb-biryani.jpg"
   },
   {
     "id": "printed-20261116-090",
@@ -1144,7 +1144,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/goat-dum-biryani.jpg"
   },
   {
     "id": "printed-20261116-091",
@@ -1177,7 +1177,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/chicken-dum-biryani.jpg"
   },
   {
     "id": "printed-20261116-094",
@@ -1188,7 +1188,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": ""
+    "image": "images/egg-biryani.jpg"
   },
   {
     "id": "printed-20261116-095",
@@ -1212,7 +1212,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/kaddu-ki-kheer.jpg"
   },
   {
     "id": "printed-20261116-097",
@@ -1225,7 +1225,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/rice-kheer.jpg"
   },
   {
     "id": "printed-20261116-098",
@@ -1238,7 +1238,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/saffron-kheer.jpg"
   },
   {
     "id": "printed-20261116-099",
@@ -1251,7 +1251,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/gajar-ka-halwa.jpg"
   },
   {
     "id": "printed-20261116-100",
@@ -1264,7 +1264,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/gulab-jamun.jpg"
   },
   {
     "id": "printed-20261116-101",
@@ -1277,7 +1277,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/ras-malai.jpg"
   },
   {
     "id": "printed-20261116-102",
@@ -1290,7 +1290,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/falooda.jpg"
   },
   {
     "id": "printed-20261116-103",
@@ -1303,7 +1303,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/mango-lassi.jpg"
   },
   {
     "id": "printed-20261116-104",
@@ -1342,7 +1342,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/madras-coffee.jpg"
   },
   {
     "id": "printed-20261116-107",
@@ -1381,7 +1381,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": ""
+    "image": "images/irani-chai.jpg"
   },
   {
     "id": "printed-20261116-110",
@@ -1449,7 +1449,7 @@ window.SEED_MENU = [
     "emoji": "🍛",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/non-vegetarian-curry.jpg",
     "special": "curry"
   }
 ];
