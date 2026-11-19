@@ -2,7 +2,7 @@
 const KEY='cityofspice_menu_hybrid_20261116_v4', PINKEY='cityofspice_staff_pin_v1', CARTKEY='cityofspice_cart_hybrid_20261116_v4';
 const $=id=>document.getElementById(id);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const money=n=>'$'+(Number(n)||0).toFixed(2);const mkid=()=> 'dish-'+Date.now()+'-'+Math.random().toString(36).slice(2,8);
-let menu=loadMenu(),cart=read(CARTKEY,{}),category='All dishes',tagFilter='',term='',authorized=false,adminTab='dishes';
+let menu=loadMenu(),cart=read(CARTKEY,{}),category='All dishes',term='',authorized=false,adminTab='dishes';
 function read(key,fallback){try{const x=localStorage.getItem(key);return x===null?structuredClone(fallback):JSON.parse(x)}catch{return JSON.parse(JSON.stringify(fallback))}}
 function loadMenu() {
   const published = window.SEED_MENU;
@@ -55,8 +55,7 @@ function menuMatches(dish) {
       ...dish.tags.filter(tag => tag === 'vegetarian'),
     ].join(' ').toLowerCase().includes(term);
   }
-  return (category === 'All dishes' || category === dish.category)
-    && (!tagFilter || dish.tags.includes(tagFilter));
+  return category === 'All dishes' || category === dish.category;
 }
 
 function showMenu() {
@@ -69,9 +68,6 @@ function showMenu() {
     term = '';
     $('search').value = '';
     showMenu();
-  });
-  document.querySelectorAll('[data-filter]').forEach(button => {
-    button.classList.toggle('active', !term && button.dataset.filter === tagFilter);
   });
   const ranks = new Map(orderedCategories.map((name, index) => [name, index]));
   const list = menu.filter(menuMatches).sort((a, b) => ranks.get(a.category) - ranks.get(b.category));
@@ -290,7 +286,7 @@ function compress(file){return new Promise((resolve,reject)=>{const img=new Imag
 function download(name,text,type){const url=URL.createObjectURL(new Blob([text],{type})),a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1200)}
 function adminBackup(){$('adminMain').innerHTML=`<h3 style="margin-top:0">Move your menu between iPads</h3><p class="muted">Export a menu file from the main iPad, then import it on each other iPad. This is manual syncing, not real-time syncing.</p><div class="btn-row"><button id="exportMenu" class="btn btn-dark">⬇ Export menu backup</button></div><hr style="border:0;border-top:1px solid #eee2d5;margin:22px 0"><label class="field">Import a saved menu backup (.json)<input type="file" accept="application/json,.json" id="importFile"></label><div class="notice">Import replaces the entire menu on this iPad. Export a backup first. Customers' dish lists remain separate on each iPad.</div><button id="importBtn" class="btn btn-gold">Import & replace menu</button><hr style="border:0;border-top:1px solid #eee2d5;margin:22px 0"><p class="muted">Restaurant starter prices are from a publicly listed menu and must be verified before launch. Keep a backup in Files or cloud storage outside Safari.</p>`;$('exportMenu').onclick=()=>{download('city-of-spice-menu-'+new Date().toISOString().slice(0,10)+'.json',JSON.stringify({app:'city-of-spice-offline-menu',version:1,exportedAt:new Date().toISOString(),menu},null,2),'application/json');toast('Backup exported')};$('importBtn').onclick=async()=>{const file=$('importFile').files[0];if(!file)return toast('Choose a backup file');if(file.size>30*1024*1024)return toast('Backup too large (max 30 MB)');let obj;try{obj=JSON.parse(await file.text())}catch{return toast('Invalid JSON file')}if(obj.app!=='city-of-spice-offline-menu'||!Array.isArray(obj.menu)||obj.menu.length>1000)return toast('Not a valid City of Spice backup');if(!confirm('Replace all dishes on this iPad with the imported menu?'))return;menu=obj.menu.map(sanitize);if(!persist(KEY,menu))return;category='All dishes';admin();showMenu();toast(`Imported ${menu.length} dishes`)}}
 function adminSecurity(){$('adminMain').innerHTML=`<h3 style="margin-top:0">Staff PIN</h3><p class="muted">Change the staff PIN for this iPad.</p><form id="changePin"><label class="field">New 6–12 digit PIN<input id="newPin" type="password" inputmode="numeric" pattern="[0-9]{6,12}" minlength="6" maxlength="12" required></label><label class="field" style="margin-top:12px">Confirm PIN<input id="newPin2" type="password" inputmode="numeric" pattern="[0-9]{6,12}" minlength="6" maxlength="12" required></label><div class="btn-row"><button class="btn btn-dark">Change PIN</button></div></form><div class="notice">Basic local access protection only. A capable user with device-level access can modify browser data. For a production multi-device deployment, use authenticated centralized administration and manage iPads with Apple Guided Access or MDM.</div>`;$('changePin').onsubmit=async e=>{e.preventDefault();if($('newPin').value!==$('newPin2').value)return toast('PINs do not match');localStorage.setItem(PINKEY,await hash($('newPin').value));toast('PIN changed on this iPad');admin()}}
-$('search').oninput=e=>{term=e.target.value.trim().toLowerCase();showMenu()};document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{tagFilter=!term&&tagFilter===b.dataset.filter?'':b.dataset.filter;term='';$('search').value='';showMenu()});$('clearFilters').onclick=()=>{category='All dishes';tagFilter='';term='';$('search').value='';showMenu()};$('cartFab').onclick=cartScreen;$('staffBtn').onclick=staff;$('homeBtn').onclick=()=>{category='All dishes';tagFilter='';term='';$('search').value='';showMenu();scrollTo({top:0,behavior:'smooth'})};
+$('search').oninput=e=>{term=e.target.value.trim().toLowerCase();showMenu()};$('clearFilters').onclick=()=>{category='All dishes';term='';$('search').value='';showMenu()};$('cartFab').onclick=cartScreen;$('staffBtn').onclick=staff;$('homeBtn').onclick=()=>{category='All dishes';term='';$('search').value='';showMenu();scrollTo({top:0,behavior:'smooth'})};
 // Do not display the stale cart's items after staff edits until cart is opened.
 if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
   navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).catch(() => {});
