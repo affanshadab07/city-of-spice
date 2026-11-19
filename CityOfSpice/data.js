@@ -532,7 +532,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/apollo-fish.jpg",
     "detailDescription": "Fish fillets are marinated in masala, lightly fried, and tossed with curry leaves, green chillies, and garlic."
   },
   {
@@ -544,7 +544,7 @@ window.SEED_MENU = [
     "emoji": "🍢",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/fish-manchurian.jpg",
     "detailDescription": "Battered fish fried and tossed with savory Indo-Chinese Manchurian sauce. The coating carries the sauce around the tender fish."
   },
   {
@@ -614,7 +614,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/bhatura.jpg",
     "detailDescription": "Two puffed, deep-fried breads with a golden outside and a soft, airy center. Tear them into pieces to scoop up curry or chole."
   },
   {
@@ -628,7 +628,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/garlic-cheese-naan.jpg",
     "detailDescription": "Soft naan baked in the tandoor, stuffed with melted mozzarella, and finished with garlic and butter."
   },
   {
@@ -643,7 +643,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "",
+    "image": "images/chilli-cheese-naan.jpg",
     "detailDescription": "Soft naan stuffed with melted cheese and green chillies. The rich cheese balances the bite of the chillies."
   },
   {
@@ -686,7 +686,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/roti-chapati.jpg",
     "detailDescription": "Two traditional unleavened whole-wheat flatbreads. They are thin, soft, and slightly chewy."
   },
   {
@@ -700,7 +700,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/tandoori-roti.jpg",
     "detailDescription": "Whole-wheat flatbread baked in a tandoor for a slightly chewy texture and a smoky finish."
   },
   {
@@ -756,7 +756,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/butter-naan.jpg",
     "detailDescription": "Traditional naan brushed with butter for a rich finish. The bread stays soft and easy to tear alongside curry."
   },
   {
@@ -770,7 +770,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/plain-naan.jpg",
     "detailDescription": "Classic tandoor-baked naan with a soft center and lightly crisp edges. Its mild flavor pairs with a wide range of curries."
   },
   {
@@ -844,7 +844,7 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/shrimp-fried-rice.jpg",
     "detailDescription": "Tender shrimp, rice, and vegetables are stir-fried together in an Indo-Chinese-style preparation."
   },
   {
@@ -892,7 +892,7 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/egg-fried-rice.jpg",
     "detailDescription": "Scrambled egg and vegetables are tossed through seasoned rice in a hot wok."
   },
   {
@@ -920,7 +920,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/vegetable-fried-rice.jpg",
     "detailDescription": "Rice tossed in a hot wok with mixed vegetables. The vegetables bring color and texture to the seasoned rice."
   },
   {
@@ -934,7 +934,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/lemon-rice.jpg",
     "detailDescription": "South Indian-style rice seasoned with lemon. The citrus gives the spiced grains a bright, tangy finish."
   },
   {
@@ -1245,7 +1245,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/paneer-biryani.jpg",
     "detailDescription": "Aromatic basmati rice layered with paneer and biryani spices. The pieces of Indian cheese add a tender bite to the long-grain rice."
   },
   {
@@ -1293,7 +1293,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/vegetarian-dum-biryani.jpg",
     "detailDescription": "Vegetables and basmati rice cooked in the dum style. The covered cooking method lets the spices perfume the rice as the vegetables soften."
   },
   {
