@@ -121,3 +121,5 @@
   gap: 10px;
 }
 .curry-bread-controls .field { flex: 1 1 175px; min-width: 0; }
+
+.menu-photo-note { display: block; margin-top: 4px; font-size: inherit; }
