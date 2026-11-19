@@ -13,8 +13,8 @@ function loadMenu() {
     const item = sanitize(dish);
     const source = publishedDishes.get(item.id);
     if (!item.image && !item.photoRemoved) item.image = source?.image || '';
-    if (!item.detailDescription && item.description === source?.description) {
-      item.detailDescription = source.detailDescription || '';
+    if (source?.detailDescription && item.description === source.description) {
+      item.detailDescription = source.detailDescription;
     }
     return item;
   });
@@ -221,18 +221,18 @@ const CURRY_PROTEINS=[
  {name:'Lamb',price:null}
 ];
 const CURRY_SAUCE_INFO=[
- {name:'Tikka Masala',description:'A creamy tomato-based masala with warm, aromatic spices.',details:"Your choice of protein, bell peppers, and onions in a creamy tomato and cashew masala with ginger, garlic, and aromatic spices.",heat:'Mild–medium'},
- {name:'Butter Masala',description:'Smooth, buttery tomato gravy with a gentle sweetness.',details:"Your choice of protein simmered in a smooth tomato, cashew, and butter gravy flavored with ginger, garlic, and spices.",heat:'Mild'},
- {name:'Dum Ka Masala',description:'Slow-cooked, richly spiced gravy with deep savory flavor.',details:"Inspired by dum cooking, where a covered pot traps aromas as the dish cooks slowly. The sauce has a deep, savory spice flavor.",heat:'Medium'},
- {name:'Korma',description:'A mild, fragrant and creamy sauce with warming spices.',details:"A mild, creamy sauce made with yogurt, ground nuts, and aromatic spices, slow-cooked with your choice of protein.",heat:'Mild'},
- {name:'Green Chilli',description:'A lively green-chilli gravy with a bright, peppery kick.',details:"A green-chilli gravy with a fresh, peppery flavor. The bright chilli character runs throughout the sauce.",heat:'Hot'},
- {name:'Jalfrezi',description:'A bold masala with peppers, onions and a savory finish.',details:"A tangy stir-fry style with bell peppers, onions, tomatoes, and aromatic spices.",heat:'Medium'},
- {name:'Rogan Josh',description:'A fragrant, deeply spiced red curry-style gravy.',details:"A Kashmiri-style red curry with yogurt, spices, and herbs, slow-cooked for an aromatic finish.",heat:'Medium'},
- {name:'Chettinad',description:'South Indian-style sauce with roasted spices and pepper.',details:"A bold South Indian curry with freshly ground spices, curry leaves, and coconut.",heat:'Medium–hot'},
- {name:'Curry',description:'A classic Indian curry gravy with balanced aromatic spices.',details:"Your choice of protein simmered in a classic onion and tomato gravy with aromatic spices.",heat:'Medium'},
- {name:'Kadai',description:'A robust masala with peppers and freshly ground spices.',details:"A traditional kadai-style preparation with bell peppers, onions, tomatoes, and aromatic spices.",heat:'Medium'},
- {name:'Vindaloo',description:'Tangy, garlicky curry with a pronounced chilli kick.',details:"A tangy, chilli-forward curry with vinegar and a bold blend of spices.",heat:'Hot'},
- {name:'Palak/Saag',description:'A gently spiced leafy-green gravy with a savory finish.',details:"Your choice of protein simmered in a mildly seasoned, smooth gravy made from puréed spinach.",heat:'Mild–medium'}
+ {name:'Tikka Masala',description:'A creamy tomato-based masala with warm, aromatic spices.',details:"Tikka Masala is a rich and flavorful curry made with marinated, grilled chicken or other proteins cooked in a creamy tomato-based sauce. The dish has a blend of spices that add heat and depth, making it a popular choice for curry lovers. It pairs well with naan or rice.",heat:'Mild–medium'},
+ {name:'Butter Masala',description:'Smooth, buttery tomato gravy with a gentle sweetness.',details:"Butter Masala is a rich and creamy curry made with tomatoes, butter, and cream, and typically cooked with chicken, paneer, or other proteins. The dish is mildly spiced and has a smooth texture, offering a balance of sweet and savory flavors. It is often served with naan or rice.",heat:'Mild'},
+ {name:'Dum Ka Masala',description:'Slow-cooked, richly spiced gravy with deep savory flavor.',details:"Dum Ka Masala is a flavorful curry where the ingredients are slow-cooked (dum) in a sealed pot to retain the spices' aroma and flavor. Typically made with meat or vegetables, it is cooked in a spiced gravy of onions, tomatoes, and yogurt, resulting in a tender, aromatic dish.",heat:'Medium'},
+ {name:'Korma',description:'A mild, fragrant and creamy sauce with warming spices.',details:"Your choice of protein cooked in a mild, creamy sauce with yogurt, ground nuts, and warming spices such as cardamom, cinnamon, and cloves. The sauce is rich and subtly spiced.",heat:'Mild'},
+ {name:'Green Chilli',description:'A lively green-chilli gravy with a bright, peppery kick.',details:"Green Chilli is a spicy and tangy curry made with green chilies, onions, tomatoes, and a blend of spices. The heat from the chilies is balanced by a tangy base of tomatoes, offering a bold and fiery dish. It can be made with meat or vegetables and is often served with rice.",heat:'Hot'},
+ {name:'Jalfrezi',description:'A bold masala with peppers, onions and a savory finish.',details:"Jalfrezi is a spicy, stir-fried curry made with meat, vegetables, or paneer. It is cooked in a tangy, flavorful sauce made with bell peppers, onions, tomatoes, and a variety of spices. The dish is known for its balance of heat and tanginess, often served with rice or flatbread.",heat:'Medium'},
+ {name:'Rogan Josh',description:'A fragrant, deeply spiced red curry-style gravy.',details:"Rogan Josh is a flavorful, aromatic curry made with tender pieces of meat, typically lamb, cooked in a base of yogurt, tomatoes, and a variety of spices. The dish is known for its rich red color, which comes from Kashmiri red chili powder, and its aromatic flavor profile.",heat:'Medium'},
+ {name:'Chettinad',description:'South Indian-style sauce with roasted spices and pepper.',details:"Chettinad is a South Indian dish known for its fiery heat and rich flavors. Made with a variety of meats or vegetables, it is cooked in a spicy, aromatic gravy made with roasted spices, tamarind, and coconut. This curry is bold, flavorful, and often quite hot.",heat:'Medium–hot'},
+ {name:'Curry',description:'A classic Indian curry gravy with balanced aromatic spices.',details:"A classic Indian curry with your choice of protein simmered in an onion and tomato gravy. Aromatic spices give the sauce its warm, savory flavor.",heat:'Medium'},
+ {name:'Kadai',description:'A robust masala with peppers and freshly ground spices.',details:"Kadai is a flavorful and aromatic dish made with meat or vegetables cooked in a spicy, tangy sauce. The curry is typically prepared in a \"kadai\" (wok), which gives it a rustic and rich flavor. It often includes bell peppers, onions, tomatoes, and a variety of spices.",heat:'Medium'},
+ {name:'Vindaloo',description:'Tangy, garlicky curry with a pronounced chilli kick.',details:"A fiery, tangy curry from Goa. Vinegar and a bold blend of spices give the sauce its sharp finish and pronounced chilli heat. Served with your choice of protein.",heat:'Hot'},
+ {name:'Palak/Saag',description:'A gently spiced leafy-green gravy with a savory finish.',details:"Your choice of protein simmered in a smooth, puréed spinach gravy. The greens give the sauce a creamy texture and an earthy, gently spiced flavor.",heat:'Mild–medium'}
 ];
 const CURRY_SAUCES=CURRY_SAUCE_INFO.map(s=>s.name);
 function curryBuilder(d, quantity = 1){

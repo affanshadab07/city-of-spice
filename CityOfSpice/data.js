@@ -14,7 +14,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chole-bhatura.jpg",
-    "detailDescription": "A spiced chickpea curry served with two puffed, deep-fried breads. The bhature are golden on the outside and soft and airy inside, ready to tear and dip into the chole."
+    "detailDescription": "Chole Bhature pairs spiced chickpea curry with two puffed, deep-fried breads. The bhature are crisp on the outside and soft inside, ready to tear and dip into the curry."
   },
   {
     "id": "printed-20261116-002",
@@ -29,7 +29,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/paneer-65-menu.jpg",
-    "detailDescription": "Crisp bites of paneer, a firm Indian cheese, seasoned South Indian style. The fried edges give way to a soft center, with a tangy, aromatic finish."
+    "detailDescription": "Paneer, a firm Indian cheese, is fried until crisp on the outside and soft in the center. The golden bites are tossed with curry leaves, green chilies, and South Indian spices for a tangy finish with a little heat."
   },
   {
     "id": "printed-20261116-003",
@@ -44,7 +44,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/gobhi-manchurian-menu.jpg",
-    "detailDescription": "Crispy cauliflower florets tossed in a savory Indo-Chinese Manchurian sauce. The coating catches the sauce while the cauliflower stays tender inside."
+    "detailDescription": "Cauliflower florets are lightly battered and fried until golden, then tossed in a glossy Indo-Chinese sauce. Garlic and ginger give the sauce a savory depth, while a touch of sweetness balances its tang and chili heat."
   },
   {
     "id": "printed-20261116-004",
@@ -75,7 +75,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chilli-paneer.jpg",
-    "detailDescription": "Pieces of paneer tossed with peppers in an Indo-Chinese chilli sauce. The soft cheese balances the savory sauce and the bite of the peppers."
+    "detailDescription": "Cubes of paneer, a firm Indian cheese, are fried until crisp and tossed with onions and bell peppers. A savory Indo-Chinese chili sauce coats the paneer, bringing a tangy, lightly sweet finish and a kick of heat."
   },
   {
     "id": "printed-20261116-006",
@@ -90,7 +90,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/mix-veg-pakora.jpg",
-    "detailDescription": "Mixed vegetables are coated in seasoned gram flour (besan) batter and fried into crisp, golden fritters."
+    "detailDescription": "Mix Veg Pakora is a classic Indian snack made with a variety of vegetables coated in a spiced gram flour (Besan) batter and deep-fried to golden perfection. Popular vegetables include onions, potatoes, spinach, cauliflower, carrots, and green chilies. The batter is flavored with spices such as turmeric, cumin, ajwain (carom seeds), and red chili powder, creating a crispy, flavorful exterior with a soft, tender interior."
   },
   {
     "id": "printed-20261116-007",
@@ -104,7 +104,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/pav-bhaji.jpg",
-    "detailDescription": "A Mumbai street-food favorite of mashed vegetables cooked with butter and spices. Served with soft toasted pav rolls, onions, and lemon."
+    "detailDescription": "Pav Bhaji is a popular Indian street food consisting of a flavorful and spiced vegetable mash (bhaji) served with buttery, soft bread rolls (pav). The bhaji is made by cooking mixed vegetables like potatoes, cauliflower, peas, and bell peppers, which are mashed and simmered with onions, tomatoes, ginger-garlic paste, and a special blend of spices called pav bhaji masala. The dish is garnished with butter, chopped coriander, and a squeeze of lemon juice, adding richness and tanginess. Pav is lightly toasted with butter until golden and served alongside the bhaji for dipping."
   },
   {
     "id": "printed-20261116-008",
@@ -120,7 +120,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chilli-idli.jpg",
-    "detailDescription": "Steamed rice cakes are cut into bite-size pieces, fried until crisp, and tossed in a tangy Indo-Chinese chilli sauce."
+    "detailDescription": "Idlis are soft, steamed South Indian rice cakes. For this dish, they’re cut into bite-sized pieces and fried until the edges turn crisp. The pieces are tossed with onions and bell peppers in a tangy Indo-Chinese chili sauce."
   },
   {
     "id": "printed-20261116-009",
@@ -135,7 +135,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/onion-pakora.jpg",
-    "detailDescription": "Sliced onions are coated in seasoned gram flour (besan) batter and fried until crisp."
+    "detailDescription": "Sliced onions are coated in a spiced chickpea flour batter and fried until golden. The fritters have a crisp exterior and a soft, sweet onion center."
   },
   {
     "id": "printed-20261116-010",
@@ -149,7 +149,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/papdi-chaat-menu.jpg",
-    "detailDescription": "Crisp papdi wafers are topped with boiled potatoes, chickpeas, yogurt, tangy tamarind chutney, and spices."
+    "detailDescription": "Papdi Chaat is a popular North Indian Street food known for its burst of flavors and textures. The dish features crispy papdis (small, round, fried dough crackers) as the base, topped with a variety of ingredients, creating a refreshing and satisfying treat. The papdi is layered with boiled potatoes, chickpeas, yogurt, tamarind chutney, mint chutney, and a sprinkling of spices like cumin powder, chaat masala, and red chili powder. The combination of sweet, tangy, spicy, and savory flavors, along with the crunchy papdi, makes Papdi Chaat a delightful snack enjoyed by people of all ages."
   },
   {
     "id": "printed-20261116-011",
@@ -163,7 +163,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/dahi-puri-menu.jpg",
-    "detailDescription": "Eight crisp puris filled with spiced potatoes and chickpeas, topped with cool yogurt, tangy chutneys, and spices."
+    "detailDescription": "Dahi Puri is a popular Indian street food that is a variation of Pani Puri and part of the larger chaat family. It features small, crispy puris (hollow, crispy dough balls) that are filled with a mixture of boiled potatoes, chickpeas, and onions. The puris are then topped with a generous amount of chilled yogurt (dahi), tamarind chutney, mint chutney, and a variety of spices like chaat masala, cumin powder, and red chili powder. The yogurt adds a cooling contrast to the spicy and tangy chutneys, making the dish a perfect balance of flavors and textures—crispy, creamy, spicy, and tangy."
   },
   {
     "id": "printed-20261116-012",
@@ -177,7 +177,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/samosa-chaat.jpg",
-    "detailDescription": "Flaky samosa broken into pieces and layered with tangy chaat toppings. The pastry, savory filling, and toppings give each bite a different texture."
+    "detailDescription": "Samosa Chaat is a popular Indian street food that combines the crispy, spiced samosa with a variety of tangy, savory toppings to create a mouthwatering, multi-layered dish. To prepare, a traditional samosa (fried pastry filled with spiced potatoes and peas) is broken into pieces and served as the base. It is then topped with yogurt, tamarind chutney, mint chutney, chickpeas, chopped onions, tomatoes, and a sprinkling of chaat masala, cumin powder, and red chili powder. The combination of hot, crispy samosa pieces and cool, creamy yogurt along with the sweet and spicy chutneys makes for a delightful contrast in flavors and textures."
   },
   {
     "id": "printed-20261116-013",
@@ -192,7 +192,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/idli-menu.jpg",
-    "detailDescription": "Three soft, fluffy cakes steamed from fermented rice and urad dal batter. Served with coconut chutney and sambar."
+    "detailDescription": "Idly is a traditional South Indian dish that consists of soft, fluffy, and steamed rice cakes made from a fermented batter of rice and urad dal (black gram). This healthy and easily digestible dish is a staple breakfast item in many Indian households. Idlis are typically round, light, and spongy, served with accompaniments like sambar (a lentil-based vegetable stew), coconut chutney, and a variety of other chutneys."
   },
   {
     "id": "printed-20261116-014",
@@ -207,7 +207,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/pani-puri.jpg",
-    "detailDescription": "Eight crisp, hollow puris served with tangy spiced water. Add the pani to a shell just before eating to enjoy the crunch and the burst of flavor together."
+    "detailDescription": "Pani Puri, also known as Golgappa or Phuchka in different regions of India, is a beloved Indian street food snack. It consists of small, hollow, crispy puris filled with a mix of spiced mashed potatoes, chickpeas, or sprouts. The puris are then filled with pani (flavored water), which is tangy, spicy, and refreshing, made from tamarind, mint, coriander, green chilies, and a blend of spices. The puri is eaten in one bite, delivering a burst of flavors and textures that are savory, tangy, spicy, and crunchy."
   },
   {
     "id": "printed-20261116-015",
@@ -221,7 +221,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/samosa.jpg",
-    "detailDescription": "Two crisp, golden pastries filled with potatoes, peas, and aromatic herbs."
+    "detailDescription": "Samosa is a classic and widely loved Indian snack consisting of a triangular or conical pastry filled with a spiced mixture, usually made of mashed potatoes, peas, and aromatic spices like cumin, coriander, and garam masala. The pastry is made from all-purpose flour (maida) and is either deep-fried or baked to golden, crispy perfection. Samosas are typically served hot with accompaniments like tamarind chutney, mint chutney, or tomato ketchup, making them a favorite tea-time treat or party appetizer."
   },
   {
     "id": "printed-20261116-016",
@@ -399,7 +399,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/lamb-chops.jpg",
-    "detailDescription": "Five lamb chops marinated in aromatic Indian spices and grilled in the tandoor. Fresh herbs and a hint of lemon complement the smoky flavor."
+    "detailDescription": "Five tender lamb chops marinated with garlic, herbs, and aromatic spices, then grilled for a savory, lightly charred finish."
   },
   {
     "id": "printed-20261116-029",
@@ -411,7 +411,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/lamb-seekh-kabab.jpg",
-    "detailDescription": "Minced lamb mixed with fresh herbs, onions, and Indian spices, then shaped around skewers and roasted in the tandoor. Served with mint chutney and lemon."
+    "detailDescription": "Lamb Seekh Kabab is a delicious and aromatic dish made from minced lamb mixed with spices, herbs, and sometimes onion and garlic. The mixture is then shaped onto skewers and grilled or baked until perfectly cooked. The kababs are juicy on the inside and crispy on the outside, packed with rich flavors."
   },
   {
     "id": "printed-20261116-030",
@@ -423,7 +423,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/beef-tikka-kabab.jpg",
-    "detailDescription": "Seasoned pieces of beef prepared tikka-style. The bite-size cuts are served as kababs for a hearty start to the meal."
+    "detailDescription": "Beef Tikka Kabab is a flavorful and juicy dish made with marinated beef chunks that are skewered and grilled or baked to perfection. The marinade is typically a mix of yogurt, spices, and herbs, giving the beef a tender texture and a smoky, spicy flavor. It’s a popular dish in Indian and Pakistani cuisine and can be served with naan, rice, or a refreshing yogurt dip."
   },
   {
     "id": "printed-20261116-031",
@@ -435,7 +435,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-seekh-kabab.jpg",
-    "detailDescription": "Ground chicken mixed with onions, fresh herbs, and Indian spices, then skewered and roasted in the tandoor. Served with mint chutney and lemon."
+    "detailDescription": "Chicken Seekh Kabab is a popular Indian dish made from minced chicken, mixed with aromatic spices, and grilled on skewers. The chicken mixture is typically combined with ingredients like onions, coriander, ginger-garlic paste, and herbs, forming tender, juicy kababs. They are usually served with naan or rice and a side of tangy chutney or yogurt dip."
   },
   {
     "id": "printed-20261116-032",
@@ -447,7 +447,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/tandoori-chicken.jpg",
-    "detailDescription": "Marinated chicken roasted tandoori-style. The aromatic seasoning and roasted exterior give way to tender chicken."
+    "detailDescription": "Tandoori Chicken is a classic Indian dish where chicken is marinated in a mixture of yogurt, spices, and herbs, then cooked in a traditional tandoor (clay oven). The chicken is smoky, juicy, and packed with flavors from spices like cumin, coriander, and garam masala, making it a favorite among grilled meat lovers."
   },
   {
     "id": "printed-20261116-033",
@@ -459,7 +459,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/apollo-shrimp.jpg",
-    "detailDescription": "Shrimp is marinated South Indian style with chilli, garlic, and curry leaves, then stir-fried for a bold, savory finish."
+    "detailDescription": "Apollo Shrimp is a popular appetizer where shrimp is deep-fried to a crispy texture and then tossed in a tangy, spicy sauce made from garlic, soy sauce, green chilies, and other aromatic spices. It is often garnished with cilantro and spring onions, making it a flavorful, zesty dish."
   },
   {
     "id": "printed-20261116-034",
@@ -471,7 +471,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/shrimp-manchurian.jpg",
-    "detailDescription": "Fried shrimp tossed in a savory Indo-Chinese Manchurian sauce. The coating holds the sauce and adds texture around the shrimp."
+    "detailDescription": "Shrimp Manchurian is an Indo-Chinese fusion dish where shrimp is coated in a batter, fried, and then tossed in a spicy and tangy sauce made of soy sauce, ginger, garlic, and green chilies. It’s a quick and flavorful dish that combines the sweetness of shrimp with the heat of the sauce."
   },
   {
     "id": "printed-20261116-035",
@@ -485,7 +485,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chilli-shrimp.jpg",
-    "detailDescription": "Crisp shrimp tossed in a tangy, savory Indo-Chinese chilli sauce. The sauce clings to the coating for a flavorful bite."
+    "detailDescription": "Chilli Shrimp is a popular seafood dish with crispy shrimp tossed in a spicy, tangy sauce made from soy sauce, garlic, ginger, green chilies, and a mix of spices. The shrimp is cooked to perfection, making it a delicious appetizer or main course."
   },
   {
     "id": "printed-20261116-036",
@@ -497,7 +497,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-manchurian.jpg",
-    "detailDescription": "Fried chicken bites coated in a savory Indo-Chinese Manchurian sauce. The crisp coating soaks up the sauce around the tender center."
+    "detailDescription": "Chicken Manchurian is a popular Indo-Chinese dish made from battered and fried chicken pieces tossed in a sweet, tangy, and spicy sauce made from soy sauce, garlic, ginger, and green chilies. The dish combines the crispy chicken with a flavorful sauce, making it an irresistible appetizer or main course."
   },
   {
     "id": "printed-20261116-037",
@@ -509,7 +509,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-tikka.jpg",
-    "detailDescription": "Marinated chicken pieces grilled until tender. The bite-size pieces highlight the seasoning and the smoky flavor of the grill."
+    "detailDescription": "Chicken Tikka is a popular Indian appetizer made from marinated chicken chunks that are skewered and grilled to perfection. The chicken is marinated in a mixture of yogurt, spices, and herbs, which makes it tender, juicy, and flavorful."
   },
   {
     "id": "printed-20261116-038",
@@ -521,7 +521,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-malai-boti.jpg",
-    "detailDescription": "Tender chicken pieces grilled with a creamy, mildly seasoned marinade. Malai refers to the rich, smooth character of the coating."
+    "detailDescription": "Chicken Malai Boti is a rich and creamy Indian dish made from marinated chicken pieces that are grilled or baked to perfection. The chicken is marinated in a blend of yogurt, cream, cheese, and aromatic spices, giving it a tender, juicy, and flavorful texture. It’s often served as a starter or appetizer and is a favorite in Indian restaurants."
   },
   {
     "id": "printed-20261116-039",
@@ -533,7 +533,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/apollo-fish.jpg",
-    "detailDescription": "Fish fillets are marinated in masala, lightly fried, and tossed with curry leaves, green chillies, and garlic."
+    "detailDescription": "Apollo Fish is a popular and flavorful dish from South India, especially in Hyderabad, known for its crispy fried fish tossed in a spicy and tangy sauce. The dish is often served as an appetizer or a starter in restaurants. The fish is typically deep-fried to a golden crisp and then coated with a flavorful sauce made from a blend of Indian spices, garlic, and butter. It has a perfect balance of spicy, tangy, and savory flavors."
   },
   {
     "id": "printed-20261116-040",
@@ -545,7 +545,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/fish-manchurian.jpg",
-    "detailDescription": "Battered fish fried and tossed with savory Indo-Chinese Manchurian sauce. The coating carries the sauce around the tender fish."
+    "detailDescription": "Fish Manchurian is an Indo-Chinese dish where fish is battered and deep-fried, then coated with a flavorful sauce made of soy sauce, ginger, garlic, and green chilies. It’s a fusion dish that combines crispy fish with a spicy and tangy sauce, making it a delightful appetizer."
   },
   {
     "id": "printed-20261116-041",
@@ -559,7 +559,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chilli-fish.jpg",
-    "detailDescription": "Fried fish pieces tossed in an Indo-Chinese chilli sauce. The savory coating gives the fish a bright, tangy bite."
+    "detailDescription": "Chilli Fish is a popular Indo-Chinese dish made with battered and fried fish pieces tossed in a spicy, tangy, and slightly sweet sauce. The sauce is made from soy sauce, green chilies, ginger, garlic, and a variety of spices, giving it a bold flavor. The fish is crispy on the outside and juicy on the inside, making it a perfect appetizer or snack."
   },
   {
     "id": "printed-20261116-042",
@@ -573,7 +573,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chicken-65.jpg",
-    "detailDescription": "Bite-size pieces of chicken fried until crisp and finished with South Indian-style seasoning. The coating adds crunch around the tender chicken."
+    "detailDescription": "Chicken 65 is a deep-fried, spicy, and crispy chicken dish that originates from South India. The chicken is marinated in yogurt, ginger-garlic paste, and a variety of spices, then fried until golden. It is often served as a starter or snack with a side of mint chutney."
   },
   {
     "id": "printed-20261116-043",
@@ -587,7 +587,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chilli-chicken.jpg",
-    "detailDescription": "Crisp chicken pieces tossed in a savory Indo-Chinese chilli sauce. The sauce clings to the fried coating for a tangy finish."
+    "detailDescription": "Chilli Chicken is a popular Indo-Chinese dish made with crispy fried chicken pieces tossed in a spicy and tangy sauce made from soy sauce, green chilies, garlic, and other spices. It is a spicy and savory dish that is perfect for those who love bold flavors."
   },
   {
     "id": "printed-20261116-044",
@@ -601,7 +601,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chicken-555.jpg",
-    "detailDescription": "Thin strips of chicken are sautéed with curry leaves, green chillies, garlic, and house spices for a bold South Indian-style starter."
+    "detailDescription": "Chicken 555 is a very spicy and flavorful fried chicken dish, popular in South India. The chicken is marinated with bold spices, deep-fried, and served with a rich and spicy sauce that’s packed with heat and flavor. It’s often garnished with fried curry leaves for added flavor."
   },
   {
     "id": "printed-20261116-045",
@@ -615,7 +615,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/bhatura.jpg",
-    "detailDescription": "Two puffed, deep-fried breads with a golden outside and a soft, airy center. Tear them into pieces to scoop up curry or chole."
+    "detailDescription": "Bhatura is a deep-fried Indian bread that is puffy and soft on the inside, with a slightly crispy exterior. It is typically served with chole (chickpeas) as part of the popular dish Chole Bhature. The dough is made from white flour, yogurt, and a small amount of baking soda, giving it a soft texture."
   },
   {
     "id": "printed-20261116-046",
@@ -629,7 +629,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/garlic-cheese-naan.jpg",
-    "detailDescription": "Soft naan baked in the tandoor, stuffed with melted mozzarella, and finished with garlic and butter."
+    "detailDescription": "Garlic Cheese Naan is a soft and fluffy Indian flatbread, enriched with the flavors of garlic and melted cheese. It’s traditionally cooked in a tandoor (clay oven) but can also be made on a stovetop or in an oven. The naan dough is infused with garlic, and after baking, it’s topped with cheese, often mozzarella or a combination of cheeses, for a rich, savory flavor. This bread is perfect as a side to curries, kebabs, or dips, adding a delicious cheesy and garlicky twist to traditional naan."
   },
   {
     "id": "printed-20261116-047",
@@ -644,7 +644,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chilli-cheese-naan.jpg",
-    "detailDescription": "Soft naan stuffed with melted cheese and green chillies. The rich cheese balances the bite of the chillies."
+    "detailDescription": "Chilli Cheese Naan is a variation of traditional naan, filled with cheese and spicy green chilies. The bread is soft and cheesy on the inside, with a spicy kick from the chilies. It’s often served as a side dish or an accompaniment to curries."
   },
   {
     "id": "printed-20261116-048",
@@ -658,7 +658,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/butter-cheese-naan.jpg",
-    "detailDescription": "Soft tandoor-baked naan stuffed with melted cheese and brushed with butter for a rich finish."
+    "detailDescription": "Butter Cheese Naan is a variation of naan, stuffed with a mixture of cheese and butter. It’s soft and indulgent, with the rich flavors of cheese and butter complementing each other. This naan is ideal for those who enjoy a rich, creamy texture with their bread."
   },
   {
     "id": "printed-20261116-049",
@@ -673,7 +673,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/bullet-naan.jpg",
-    "detailDescription": "Tandoor-baked naan filled with green chillies and brushed with butter. The soft bread has a bold chilli bite."
+    "detailDescription": "Bullet Naan is a spicy, flavored version of the traditional naan. It is prepared with green chilies, garlic, and sometimes a bit of mint, adding heat and a burst of freshness to the soft, pillowy bread. Bullet Naan is typically served with spicy curries and dishes that require a bit of heat to complement the meal."
   },
   {
     "id": "printed-20261116-050",
@@ -687,7 +687,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/roti-chapati.jpg",
-    "detailDescription": "Two traditional unleavened whole-wheat flatbreads. They are thin, soft, and slightly chewy."
+    "detailDescription": "Roti, also known as Chapati, is an unleavened Indian flatbread made from whole wheat flour. It is soft and thin, with a slightly chewy texture. It’s a staple in many Indian households and is often served with vegetables, curries, or lentils."
   },
   {
     "id": "printed-20261116-051",
@@ -701,7 +701,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/tandoori-roti.jpg",
-    "detailDescription": "Whole-wheat flatbread baked in a tandoor for a slightly chewy texture and a smoky finish."
+    "detailDescription": "Tandoori Roti is a whole wheat flatbread traditionally cooked in a tandoor (clay oven). It is soft, slightly chewy, and has a distinct smoky flavor from the tandoor. It’s often served with curries and other dishes, especially in North India."
   },
   {
     "id": "printed-20261116-052",
@@ -715,7 +715,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/malabar-parotta.jpg",
-    "detailDescription": "Two Kerala-style flatbreads with flaky layers and a soft center. Pull them apart and dip the layers into curry."
+    "detailDescription": "Malabar Paratha, also known as Kerala Paratha, is a flaky, buttery, and soft flatbread that originates from the Malabar region of South India. The dough is rolled out thin and then cooked in ghee, creating layers of fluffiness and crispness. It pairs beautifully with curries or stews."
   },
   {
     "id": "printed-20261116-053",
@@ -729,7 +729,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/onion-kulcha.jpg",
-    "detailDescription": "A soft, leavened flatbread stuffed with spiced onions and fresh herbs, then baked in the tandoor."
+    "detailDescription": "Onion Kulcha is a stuffed Indian flatbread made from dough filled with finely chopped onions, spices, and herbs. It is soft and slightly crispy, with the sweetness of onions perfectly complementing the savory dough. It is commonly served with curries or as a snack."
   },
   {
     "id": "printed-20261116-054",
@@ -743,7 +743,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/garlic-naan-menu.jpg",
-    "detailDescription": "Soft naan baked in the tandoor, topped with fresh garlic, and brushed with butter for a fragrant finish."
+    "detailDescription": "Garlic Naan is a traditional naan flatbread topped with finely chopped garlic and sometimes fresh cilantro. It is brushed with butter or ghee for added flavor and is often served as a side with Indian dishes like curries, kebabs, and dals."
   },
   {
     "id": "printed-20261116-055",
@@ -757,7 +757,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/butter-naan.jpg",
-    "detailDescription": "Traditional naan brushed with butter for a rich finish. The bread stays soft and easy to tear alongside curry."
+    "detailDescription": "Butter Naan is a traditional Indian flatbread brushed generously with butter after baking. It is soft, fluffy, and slightly crispy on the edges, making it a perfect accompaniment to rich and creamy curries. The buttery taste enhances the flavor of the bread, making it a popular choice for many."
   },
   {
     "id": "printed-20261116-056",
@@ -771,7 +771,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/plain-naan.jpg",
-    "detailDescription": "Classic tandoor-baked naan with a soft center and lightly crisp edges. Its mild flavor pairs with a wide range of curries."
+    "detailDescription": "Plain Naan is the classic Indian flatbread, soft, fluffy, and slightly crispy on the edges. Made from all-purpose flour, it is simple yet delicious, and pairs well with a variety of curries and stews."
   },
   {
     "id": "printed-20261116-057",
@@ -833,7 +833,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/shrimp-noodles.jpg",
-    "detailDescription": "Noodles stir-fried with shrimp in the Indo-Chinese style. The shrimp adds a light sweetness to the savory noodles."
+    "detailDescription": "Shrimp Noodles is a stir-fried noodle dish made with tender shrimp, cooked with vegetables like bell peppers, onions, and carrots, tossed in a savory sauce made from soy sauce, garlic, and other seasonings. The noodles are typically egg noodles or rice noodles, making it a satisfying dish."
   },
   {
     "id": "printed-20261116-062",
@@ -845,7 +845,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/shrimp-fried-rice.jpg",
-    "detailDescription": "Tender shrimp, rice, and vegetables are stir-fried together in an Indo-Chinese-style preparation."
+    "detailDescription": "Shrimp Fried Rice is a flavorful stir-fried rice dish made with tender shrimp, cooked with vegetables like peas, carrots, and bell peppers, along with soy sauce, garlic, and seasonings. It’s typically made with jasmine or basmati rice, creating a savory and satisfying meal."
   },
   {
     "id": "printed-20261116-063",
@@ -869,7 +869,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-fried-rice.jpg",
-    "detailDescription": "Pieces of chicken and mixed vegetables are tossed with rice in a hot wok for a savory finish."
+    "detailDescription": "Chicken Fried Rice is a delicious stir-fried rice dish made with diced chicken breast, mixed vegetables, and seasonings like soy sauce, garlic, and ginger. It is commonly made with jasmine or basmati rice and is quick, flavorful, and filling."
   },
   {
     "id": "printed-20261116-065",
@@ -881,7 +881,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/egg-noodles.jpg",
-    "detailDescription": "Soft, slightly chewy noodles made with egg and tossed in the wok with savory seasoning."
+    "detailDescription": "Soft, slightly chewy egg noodles are stir-fried with vegetables and savory seasonings. The noodles soak up the flavor of the sauce."
   },
   {
     "id": "printed-20261116-066",
@@ -893,7 +893,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/egg-fried-rice.jpg",
-    "detailDescription": "Scrambled egg and vegetables are tossed through seasoned rice in a hot wok."
+    "detailDescription": "Egg Fried Rice is a simple and popular stir-fried rice dish made with scrambled eggs, vegetables (such as peas, carrots, and onions), and seasonings like soy sauce. The eggs are cooked into the rice, creating a light and flavorful dish."
   },
   {
     "id": "printed-20261116-067",
@@ -921,7 +921,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/vegetable-fried-rice.jpg",
-    "detailDescription": "Rice tossed in a hot wok with mixed vegetables. The vegetables bring color and texture to the seasoned rice."
+    "detailDescription": "Veg Fried Rice is a vegetarian stir-fried rice dish made with a variety of vegetables, such as carrots, peas, bell peppers, and onions, along with garlic, soy sauce, and seasonings. It’s a simple and healthy dish, often served as a side or main course."
   },
   {
     "id": "printed-20261116-069",
@@ -950,7 +950,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/mixed-vegetable-coconut-korma.jpg",
-    "detailDescription": "Mixed vegetables are simmered in a creamy coconut sauce with cashews, mild spices, and herbs."
+    "detailDescription": "Mix Veg Coconut Korma is a rich, mildly spiced curry made with a variety of vegetables and cooked in a creamy coconut-based sauce. The coconut adds a subtle sweetness and richness to the dish, while the spices enhance its flavor. It is often served with rice or flatbreads."
   },
   {
     "id": "printed-20261116-071",
@@ -1084,7 +1084,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/chana-saag.jpg",
-    "detailDescription": "Chickpeas and spinach simmer together with aromatic spices. The chickpeas bring a firm bite to the soft greens."
+    "detailDescription": "Chana Saag is a nutritious and flavorful curry made with chickpeas (chana) and spinach (saag). The combination of chickpeas and spinach is spiced with ingredients like garlic, cumin, turmeric, and garam masala, creating a dish that's both hearty and healthy. It is often served with rice or flatbreads like roti or naan."
   },
   {
     "id": "printed-20261116-080",
@@ -1098,7 +1098,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/navratan-korma.jpg",
-    "detailDescription": "A medley of vegetables, fruits, and nuts is simmered in a mildly spiced sauce made with cashews and yogurt."
+    "detailDescription": "Navaratan Korma is a rich, creamy curry made with a mix of nine vegetables, fruits, and sometimes nuts, creating a sweet and savory flavor. It is a popular dish in North Indian cuisine and is typically cooked with a base of yogurt, cream, or coconut milk, along with a blend of spices like cardamom, cinnamon, and cloves. This dish is often enjoyed with naan or rice."
   },
   {
     "id": "printed-20261116-081",
@@ -1112,7 +1112,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/mixed-vegetable-tikka-masala.jpg",
-    "detailDescription": "Mixed vegetables are roasted and simmered in a creamy tomato masala flavored with ginger, garlic, and aromatic Indian spices."
+    "detailDescription": "Mix Veg Tikka Masala is a vegetarian curry made with a variety of mixed vegetables, marinated, grilled, and cooked in a spiced, tomato-based gravy. The spices and creaminess of the sauce complement the vegetables, creating a rich, flavorful dish."
   },
   {
     "id": "printed-20261116-082",
@@ -1126,7 +1126,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/kadai-paneer.jpg",
-    "detailDescription": "Paneer cubes and bell peppers are cooked in a tangy tomato-and-onion gravy with aromatic spices."
+    "detailDescription": "Kadai Paneer is a popular North Indian curry made with paneer (Indian cottage cheese) and bell peppers cooked in a spicy, tangy gravy made with tomatoes, onions, ginger, garlic, and traditional Indian spices. It is served in a \"kadai\" (wok), which adds to the dish's rustic and rich flavors."
   },
   {
     "id": "printed-20261116-083",
@@ -1140,7 +1140,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/malai-kofta.jpg",
-    "detailDescription": "Tender kofta dumplings are served in a rich, gently spiced tomato gravy with a creamy finish."
+    "detailDescription": "Malai Kofta consists of soft, deep-fried balls (koftas) made from mashed vegetables, paneer, or a combination, and served in a rich, creamy tomato-based gravy. The dish is mildly spiced and often garnished with cream, making it indulgent and flavorful. It is typically served with naan or rice."
   },
   {
     "id": "printed-20261116-084",
@@ -1154,7 +1154,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/palak-paneer.jpg",
-    "detailDescription": "Cubes of paneer simmered in a spinach-based curry. The mild cheese stands out against the smooth greens."
+    "detailDescription": "Palak Paneer is a classic North Indian dish made with paneer (Indian cottage cheese) and spinach (palak) cooked in a mildly spiced gravy made from onions, garlic, ginger, and a blend of Indian spices. This nutritious dish pairs well with roti, naan, or rice."
   },
   {
     "id": "printed-20261116-085",
@@ -1168,7 +1168,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/paneer-tikka-masala.jpg",
-    "detailDescription": "Seasoned paneer pieces in a spiced tomato-based gravy. The tender cheese keeps its shape in the rich tikka masala sauce."
+    "detailDescription": "Paneer Tikka Masala is a popular vegetarian dish made with marinated paneer cubes that are grilled or baked, then cooked in a flavorful, spicy tomato-based gravy. The marinade typically contains yogurt and spices like cumin, coriander, and turmeric, adding depth to the dish."
   },
   {
     "id": "printed-20261116-086",
@@ -1182,7 +1182,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/dal-makhani.jpg",
-    "detailDescription": "Whole black lentils and kidney beans are slow-cooked with aromatic spices, butter, and cream for a rich, thick curry."
+    "detailDescription": "Daal Makhani is a traditional North Indian dish made with whole black lentils (urad dal) and kidney beans (rajma), slow-cooked with spices, butter, and cream. The result is a rich, creamy, and hearty dish, often served with rice or flatbreads like naan."
   },
   {
     "id": "printed-20261116-087",
@@ -1196,7 +1196,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/butter-paneer-masala.jpg",
-    "detailDescription": "Paneer cubes in a buttery tomato-style sauce. The mild cheese and smooth gravy give the curry a rich finish."
+    "detailDescription": "Butter Paneer Masala is a creamy, rich curry made with paneer cooked in a buttery tomato sauce with cream, making it indulgent and flavorful. The curry is spiced with garam masala, cumin, and coriander, giving it a mildly spicy flavor. This dish is a favorite in Indian cuisine and is often paired with naan or rice."
   },
   {
     "id": "printed-20261116-088",
@@ -1210,7 +1210,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/mutter-paneer-masala.jpg",
-    "detailDescription": "Paneer cubes and green peas are cooked in a tomato-based gravy flavored with ginger, garlic, and Indian spices."
+    "detailDescription": "Mutter Paneer Masala is a popular North Indian curry made with paneer (Indian cottage cheese) and peas (mutter). The dish is prepared in a spiced tomato-based gravy with onions, ginger, garlic, and garam masala. The richness of the paneer combines beautifully with the sweetness of the peas."
   },
   {
     "id": "printed-20261116-089",
@@ -1222,7 +1222,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/lamb-biryani.jpg",
-    "detailDescription": "Aromatic basmati rice layered with seasoned lamb. The spices flavor both the long grains and the tender pieces of lamb."
+    "detailDescription": "Lamb Biryani is made with tender lamb cooked in a flavorful blend of spices, marinated in yogurt, and layered with basmati rice. The dish is cooked using the dum method, where the pot is sealed, allowing the spices to infuse into the lamb and rice, creating a rich, savory biryani."
   },
   {
     "id": "printed-20261116-090",
@@ -1234,7 +1234,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/goat-dum-biryani-menu.jpg",
-    "detailDescription": "Goat and basmati rice slow-cooked together in the dum style. The covered cooking method lets the aromas infuse the meat and rice."
+    "detailDescription": "Goat Dum Biryani is a fragrant, spiced rice dish made with tender pieces of goat meat, slow-cooked with basmati rice, aromatic spices, and saffron. The “dum” cooking method involves sealing the pot and cooking the biryani over low heat, allowing the flavors to meld perfectly."
   },
   {
     "id": "printed-20261116-091",
@@ -1246,7 +1246,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/paneer-biryani.jpg",
-    "detailDescription": "Aromatic basmati rice layered with paneer and biryani spices. The pieces of Indian cheese add a tender bite to the long-grain rice."
+    "detailDescription": "Paneer Biryani is a vegetarian version of biryani made with paneer (Indian cottage cheese) instead of meat. The paneer is marinated in spices and yogurt, then cooked with basmati rice and aromatic spices. The result is a rich, fragrant dish that’s satisfying and full of flavor."
   },
   {
     "id": "printed-20261116-092",
@@ -1258,7 +1258,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-boneless-biryani.jpg",
-    "detailDescription": "Fragrant biryani rice with pieces of boneless chicken. The chicken and aromatic spices season the long grains throughout."
+    "detailDescription": "Chicken Boneless Biryani is a variation of the traditional biryani, featuring boneless chicken marinated with spices, yogurt, and herbs. It is cooked together with basmati rice and seasoned with a blend of aromatic spices, creating a deliciously flavorful, tender dish."
   },
   {
     "id": "printed-20261116-093",
@@ -1270,7 +1270,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/chicken-dum-biryani-menu.jpg",
-    "detailDescription": "Chicken and spiced basmati rice cooked together in the dum style. The covered cooking method lets the flavor of the chicken and spices infuse the rice."
+    "detailDescription": "Chicken Dum Biryani is a popular rice dish made with tender chicken pieces marinated in yogurt and spices, then cooked together with basmati rice and aromatic spices. The slow-cooked “dum” method ensures the chicken is infused with all the spices and flavors, making it rich and fragrant."
   },
   {
     "id": "printed-20261116-094",
@@ -1282,7 +1282,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/egg-biryani-menu.jpg",
-    "detailDescription": "Boiled eggs are served with fragrant basmati rice seasoned with spices and herbs."
+    "detailDescription": "Egg Biryani is a variation of the classic biryani where boiled eggs are added to a flavorful, spiced rice dish. The eggs are cooked along with basmati rice, spices, and herbs, absorbing the rich flavors of the curry. This dish is aromatic, spiced, and satisfying."
   },
   {
     "id": "printed-20261116-095",
@@ -1294,7 +1294,7 @@ window.SEED_MENU = [
     "tags": [],
     "available": true,
     "image": "images/vegetarian-dum-biryani.jpg",
-    "detailDescription": "Vegetables and basmati rice cooked in the dum style. The covered cooking method lets the spices perfume the rice as the vegetables soften."
+    "detailDescription": "Veg Dum Biryani is a vegetarian version of the traditional biryani, made with mixed vegetables like carrots, peas, and potatoes, cooked with basmati rice and aromatic spices. The slow-cooked method allows the flavors to develop and the vegetables to become tender and infused with the spices."
   },
   {
     "id": "printed-20261116-096",
@@ -1308,7 +1308,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/kaddu-ki-kheer.jpg",
-    "detailDescription": "A traditional Hyderabadi dessert made with grated bottle gourd slow-cooked in milk, sugar, and aromatic spices. The kheer is mildly sweet and creamy, with a garnish of nuts and saffron. Served in a 12 oz portion."
+    "detailDescription": "Kaddu Kheer is a creamy and sweet dessert made with grated bottle gourd, milk, sugar, and flavored with cardamom and saffron. The dish is simmered slowly until the bottle gourd is soft, and the flavors are well absorbed into the milk, creating a rich and comforting treat."
   },
   {
     "id": "printed-20261116-097",
@@ -1322,7 +1322,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/rice-kheer.jpg",
-    "detailDescription": "Rice is slow-cooked in milk with sugar, cardamom, and a touch of saffron, then finished with roasted nuts and raisins. Served in a 12 oz portion."
+    "detailDescription": "Rice Kheer is a traditional Indian dessert made with rice, milk, sugar, and flavored with cardamom, saffron, and sometimes rose water. It is slow-cooked until the rice becomes soft, and the milk thickens to create a creamy pudding-like consistency."
   },
   {
     "id": "printed-20261116-098",
@@ -1336,7 +1336,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/saffron-kheer.jpg",
-    "detailDescription": "Rice is simmered in milk with sugar and infused with saffron and cardamom, then topped with roasted nuts. Served in a 12 oz portion."
+    "detailDescription": "Saffron Kheer is a luxurious version of traditional rice kheer, flavored with saffron threads, which impart a rich golden color and unique flavor to the dish. It is made with rice, milk, sugar, and cardamom, creating a sweet, creamy pudding-like dessert."
   },
   {
     "id": "printed-20261116-099",
@@ -1350,7 +1350,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/gajar-ka-halwa.jpg",
-    "detailDescription": "Grated carrots are slow-cooked in milk, sugar, and ghee, flavored with cardamom, and finished with roasted nuts and raisins. Served warm in a 12 oz portion."
+    "detailDescription": "Carrot Halwa is a delicious North Indian dessert made with grated carrots, milk, sugar, and ghee, flavored with cardamom and garnished with nuts and raisins. It is slow-cooked to create a rich, sweet, and creamy dish."
   },
   {
     "id": "printed-20261116-100",
@@ -1364,7 +1364,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/gulab-jamun-menu.jpg",
-    "detailDescription": "Three golden, fried milk-solid dumplings soaked in warm sugar syrup infused with cardamom and rose water."
+    "detailDescription": "Gulab Jamun is a popular Indian dessert made from dough balls of khoya (reduced milk) and flour, deep-fried until golden brown, and soaked in sugar syrup flavored with rose water, cardamom, and saffron. The warm, syrupy dessert is rich and indulgent."
   },
   {
     "id": "printed-20261116-101",
@@ -1378,7 +1378,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/ras-malai.jpg",
-    "detailDescription": "Three soft cheese patties soaked in chilled, sweetened milk flavored with cardamom and saffron, garnished with pistachios and almonds."
+    "detailDescription": "Ras Malai is a rich and creamy dessert made from soft, spongy milk-based dumplings (malai) soaked in a sweet, flavored milk mixture. It is often flavored with cardamom and saffron, and garnished with pistachios and almonds for added richness."
   },
   {
     "id": "printed-20261116-102",
@@ -1392,7 +1392,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/falooda-menu.jpg",
-    "detailDescription": "A chilled Indian dessert drink with a sweet, creamy base. It can be sipped or enjoyed by the spoonful."
+    "detailDescription": "Falooda is a popular Indian dessert drink made with vermicelli noodles, basil seeds (sabja), rose syrup, and milk, often topped with ice cream or jelly. It is a sweet and refreshing drink, typically served chilled."
   },
   {
     "id": "printed-20261116-103",
@@ -1406,7 +1406,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/mango-lassi-menu.jpg",
-    "detailDescription": "A chilled yogurt drink blended with mango. The fruit gives the lassi a sweet, smooth finish over the tang of yogurt."
+    "detailDescription": "Mango Lassi is a popular Indian drink made with yogurt, mango pulp, sugar, and a hint of cardamom. It’s a sweet, creamy, and refreshing beverage, often served chilled as a cooling drink in warm weather."
   },
   {
     "id": "printed-20261116-104",
@@ -1420,7 +1420,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/sweet-salted-lassi.jpg",
-    "detailDescription": "A chilled yogurt drink with a sweet finish. Its smooth, creamy texture makes it a refreshing accompaniment to the meal."
+    "detailDescription": "Sweet Lassi is a traditional Indian drink made with yogurt, sugar, and water, sometimes flavored with cardamom or rose water. It is a creamy and slightly sweet beverage, often served chilled."
   },
   {
     "id": "printed-20261116-105",
@@ -1434,7 +1434,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/sweet-salted-lassi.jpg",
-    "detailDescription": "A chilled, savory yogurt drink seasoned with salt. The light saltiness balances the natural tang of the yogurt."
+    "detailDescription": "Salt Lassi is a savory variation of the traditional lassi, made with yogurt, salt, and spices like cumin and coriander. It’s commonly consumed as a cooling and refreshing drink, especially in hot weather."
   },
   {
     "id": "printed-20261116-106",
@@ -1448,7 +1448,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/madras-coffee-menu.jpg",
-    "detailDescription": "Strong South Indian filter coffee blended with hot milk for a smooth, aromatic finish."
+    "detailDescription": "Madras Coffee is a traditional South Indian coffee made using the \"filter coffee\" method. It is brewed from finely ground coffee beans mixed with hot milk and served with sugar to create a strong, aromatic, and creamy coffee."
   },
   {
     "id": "printed-20261116-107",
@@ -1462,7 +1462,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/mexican-coca-cola.jpg",
-    "detailDescription": "Mexican Coca-Cola with the familiar fizzy cola flavor. Choose this separately from the soft drink selection."
+    "detailDescription": "Mexican Coke is a variation of Coca-Cola that is made using cane sugar rather than high fructose corn syrup, giving it a slightly different taste compared to the regular Coca-Cola."
   },
   {
     "id": "printed-20261116-108",
@@ -1476,7 +1476,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/apple-juice.jpg",
-    "detailDescription": "A sweet apple drink with a mellow fruit flavor. A still drink option alongside the carbonated soft drinks."
+    "detailDescription": "A chilled apple juice with a sweet, mellow fruit flavor."
   },
   {
     "id": "printed-20261116-109",
@@ -1490,7 +1490,7 @@ window.SEED_MENU = [
     ],
     "available": true,
     "image": "images/irani-chai.jpg",
-    "detailDescription": "A rich, creamy tea in the Irani style popular in Hyderabad. The tea has a full flavor and smooth finish."
+    "detailDescription": "Irani Chai is a strong, flavorful tea popular in the Indian subcontinent, especially in Irani cafes. It is made by brewing strong black tea leaves with milk, sugar, and cardamom, resulting in a rich, creamy, and sweet beverage."
   },
   {
     "id": "printed-20261116-110",
@@ -1511,7 +1511,7 @@ window.SEED_MENU = [
       "Diet Coke",
       "Fanta"
     ],
-    "detailDescription": "Choose classic Coca-Cola, Coke Zero, Diet Coke, or orange Fanta from the dropdown."
+    "detailDescription": "Choose classic Coca-Cola for a sweet cola flavor, Coke Zero or Diet Coke for a sugar-free cola, or Fanta for a fruity orange soda."
   },
   {
     "id": "printed-20261116-111",
@@ -1530,7 +1530,7 @@ window.SEED_MENU = [
       "Thums Up",
       "Limca"
     ],
-    "detailDescription": "Choose Thums Up for a bold cola taste or Limca for a bright lemon-lime flavor."
+    "detailDescription": "Thums Up is an Indian cola with a bold, fizzy flavor. Limca is a bubbly lemon-lime soda with a bright citrus taste."
   },
   {
     "id": "printed-20261116-112",
