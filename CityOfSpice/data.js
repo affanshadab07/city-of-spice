@@ -868,7 +868,7 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/chicken-fried-rice.jpg",
     "detailDescription": "Pieces of chicken and mixed vegetables are tossed with rice in a hot wok for a savory finish."
   },
   {
@@ -880,7 +880,7 @@ window.SEED_MENU = [
     "emoji": "🍜",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/egg-noodles.jpg",
     "detailDescription": "Soft, slightly chewy noodles made with egg and tossed in the wok with savory seasoning."
   },
   {
