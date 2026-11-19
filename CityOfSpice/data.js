@@ -782,7 +782,7 @@ window.SEED_MENU = [
     "emoji": "🌯",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/wraps.jpg",
     "detailDescription": "Seasoned beef folded into a soft flatbread. The wrap makes the savory filling easy to eat by hand."
   },
   {
@@ -794,7 +794,7 @@ window.SEED_MENU = [
     "emoji": "🌯",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/wraps.jpg",
     "detailDescription": "Seasoned chicken tikka is rolled in soft flatbread for a handheld meal."
   },
   {
@@ -808,7 +808,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/wraps.jpg",
     "detailDescription": "Seasoned paneer tikka is folded into soft flatbread for a hearty handheld meal."
   },
   {
@@ -820,7 +820,7 @@ window.SEED_MENU = [
     "emoji": "🌯",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/wraps.jpg",
     "detailDescription": "Creamy, mildly seasoned chicken pieces rolled in flatbread. The soft bread wraps around the tender malai boti filling."
   },
   {
