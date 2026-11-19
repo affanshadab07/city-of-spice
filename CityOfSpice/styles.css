@@ -196,6 +196,10 @@
   max-height: 320px;
   object-fit: cover;
 }
+.hero-featured-photo[alt="Falooda"] {
+  object-fit: contain;
+  padding-bottom: 36px;
+}
 .hero-slide-caption {
   position: absolute;
   inset: auto 0 0;
@@ -204,6 +208,10 @@
   color: #fff4df;
   font-size: 13px;
   font-weight: 650;
+}
+.hero-featured-photo[alt="Falooda"] + .hero-slide-caption {
+  padding-block: 10px;
+  background: none;
 }
 #menu { scroll-margin-top: 110px; }
 @media (max-width: 620px) {

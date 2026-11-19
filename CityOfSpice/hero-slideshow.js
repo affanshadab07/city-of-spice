@@ -5,7 +5,7 @@
     ["Masala Dosa", "dosa.jpg"],
     ["Malai Kofta", "malai-kofta.jpg"],
     ["Lamb Biryani", "lamb-biryani.jpg"],
-    ["Chicken Noodles", "chicken-noodles.jpg"],
+    ["Falooda", "falooda-menu.jpg"],
     ["Bullet Naan", "bullet-naan.jpg"],
     ["Ras Malai", "ras-malai.jpg"],
   ];
