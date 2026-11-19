@@ -74,9 +74,28 @@
 .dish-photo {
   flex-shrink: 0;
 }
-.dish-photo[data-photo] {
-  cursor: zoom-in;
+.dish-card { position: relative; }
+.dish-open {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
 }
+.dish-open::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.dish-card:has(.dish-open:focus-visible) {
+  outline: 2px solid #a56b2f;
+  outline-offset: 3px;
+}
+.dish-card .add { position: relative; z-index: 2; }
+.photo-view-label { z-index: 2; border: 0; cursor: zoom-in; }
 .photo-view-label {
   position: absolute;
   right: 8px;
