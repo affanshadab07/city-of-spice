@@ -1,11 +1,28 @@
 const CACHE_PREFIX = 'city-of-spice-menu-';
-const CACHE = CACHE_PREFIX + 'v40';
+const CACHE = CACHE_PREFIX + 'v41';
 const HOME = new URL('./', self.registration.scope);
 const LEGACY_HOME = new URL('index.html', HOME);
+const MENU_FILES = ['./styles.css', './data.js', './app.js', './manifest.webmanifest'];
+const MENU_PATHS = new Set(MENU_FILES.map(file => new URL(file, HOME).pathname));
 const CORE = [
-  HOME.href, './styles.css', './data.js', './app.js', './manifest.webmanifest',
+  HOME.href, ...MENU_FILES,
   './city-of-spice-logo.jpg', './halal-badge.png', './icon.png', './icon-512.png',
 ];
+
+async function freshMenuResponse(request) {
+  const cache = await caches.open(CACHE);
+  let response;
+  try {
+    response = await fetch(request, { cache: 'no-cache', redirect: 'error' });
+  } catch (error) {
+    const saved = await cache.match(request);
+    if (saved) return saved;
+    throw error;
+  }
+  if (!response.ok) return await cache.match(request) || response;
+  await cache.put(request, response.clone()).catch(() => {});
+  return response;
+}
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
@@ -34,11 +51,13 @@ self.addEventListener('fetch', event => {
     if (url.pathname === HOME.pathname || url.pathname === LEGACY_HOME.pathname) {
       // Older Home Screen installs can still launch /index.html. Serve the
       // canonical page without Cloudflare's redirect on both launch URLs.
-      event.respondWith((async () => {
-        const cache = await caches.open(CACHE);
-        return await cache.match(HOME.href) || fetch(HOME.href, { redirect: 'error' });
-      })());
+      event.respondWith(freshMenuResponse(HOME.href));
     }
+    return;
+  }
+
+  if (MENU_PATHS.has(url.pathname)) {
+    event.respondWith(freshMenuResponse(request));
     return;
   }
 
