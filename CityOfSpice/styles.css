@@ -58,10 +58,10 @@
 .spice-choice{padding:15px 0;margin:14px 0;border-top:1px solid #eadfce;border-bottom:1px solid #eadfce}
 .spice-title{font-weight:750;font-size:14px;color:#3e2b20;margin-bottom:11px}
 .spice-title span{display:block;font-size:12px;font-weight:400;color:#7c6e61;margin-top:5px}
-.spice-options{display:flex;gap:9px;flex-wrap:wrap}
-.spice-options label{display:block;cursor:pointer;flex:1;min-width:98px}
+.spice-options{display:flex;gap:6px;flex-wrap:wrap}
+.spice-options label{display:block;cursor:pointer}
 .spice-options input{position:absolute;opacity:0;width:1px;height:1px}
-.spice-options span{display:block;text-align:center;border:1px solid #ddceba;background:#fff;border-radius:12px;padding:12px 9px;font-size:13px;font-weight:700}
+.spice-options span{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:4px 10px;border:1px solid #ddceba;background:#fff;border-radius:20px;font-size:12px;font-weight:700}
 .spice-options input:checked+span{background:#463022;color:white;border-color:#463022;box-shadow:0 0 0 2px #c99758}
 .spice-options input:focus-visible+span{outline:3px solid #dcb06c;outline-offset:2px}
 .spice-admin-label{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:600}
