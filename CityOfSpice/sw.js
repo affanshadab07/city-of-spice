@@ -1,7 +1,7 @@
 importScripts('./data.js');
 
 const CACHE_PREFIX = 'city-of-spice-menu-';
-const CACHE = CACHE_PREFIX + 'v75';
+const CACHE = CACHE_PREFIX + 'v76';
 const HOME = new URL('./', self.registration.scope);
 const LEGACY_HOME = new URL('index.html', HOME);
 const MENU_FILES = ['./styles.css', './data.js', './app.js', './hero-slideshow.js', './manifest.webmanifest'];
