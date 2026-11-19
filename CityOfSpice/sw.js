@@ -1,12 +1,15 @@
 const CACHE_PREFIX = 'city-of-spice-menu-';
-const CACHE = CACHE_PREFIX + 'v41';
+const CACHE = CACHE_PREFIX + 'v42';
 const HOME = new URL('./', self.registration.scope);
 const LEGACY_HOME = new URL('index.html', HOME);
-const MENU_FILES = ['./styles.css', './data.js', './app.js', './manifest.webmanifest'];
+const MENU_FILES = ['./styles.css', './data.js', './app.js', './hero-slideshow.js', './manifest.webmanifest'];
 const MENU_PATHS = new Set(MENU_FILES.map(file => new URL(file, HOME).pathname));
 const CORE = [
   HOME.href, ...MENU_FILES,
   './city-of-spice-logo.jpg', './halal-badge.png', './icon.png', './icon-512.png',
+  './images/samosa.jpg', './images/tandoori-chicken.jpg', './images/dosa.jpg',
+  './images/malai-kofta.jpg', './images/lamb-biryani.jpg', './images/chicken-noodles.jpg',
+  './images/bullet-naan.jpg', './images/ras-malai.jpg',
 ];
 
 async function freshMenuResponse(request) {
