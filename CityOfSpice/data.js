@@ -28,7 +28,7 @@ window.SEED_MENU = [
       "spicy"
     ],
     "available": true,
-    "image": "images/paneer-65.jpg",
+    "image": "images/paneer-65-menu.jpg",
     "detailDescription": "Crisp bites of paneer, a firm Indian cheese, seasoned South Indian style. The fried edges give way to a soft center, with a tangy, aromatic finish."
   },
   {
