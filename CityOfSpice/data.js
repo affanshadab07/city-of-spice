@@ -1391,7 +1391,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/falooda.jpg",
+    "image": "images/falooda-menu.jpg",
     "detailDescription": "A chilled Indian dessert drink with a sweet, creamy base. It can be sipped or enjoyed by the spoonful."
   },
   {
@@ -1405,7 +1405,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/mango-lassi.jpg",
+    "image": "images/mango-lassi-menu.jpg",
     "detailDescription": "A chilled yogurt drink blended with mango. The fruit gives the lassi a sweet, smooth finish over the tang of yogurt."
   },
   {
@@ -1419,7 +1419,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/sweet-salted-lassi.jpg",
     "detailDescription": "A chilled yogurt drink with a sweet finish. Its smooth, creamy texture makes it a refreshing accompaniment to the meal."
   },
   {
@@ -1433,7 +1433,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/sweet-salted-lassi.jpg",
     "detailDescription": "A chilled, savory yogurt drink seasoned with salt. The light saltiness balances the natural tang of the yogurt."
   },
   {
@@ -1503,7 +1503,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/canned-soft-drinks.jpg",
     "special": "choice",
     "choices": [
       "Coca Cola",
@@ -1543,7 +1543,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/canned-soft-drinks.jpg",
     "special": "choice",
     "choices": [
       "Dr Pepper",
