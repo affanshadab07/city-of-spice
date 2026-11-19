@@ -1447,7 +1447,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/madras-coffee.jpg",
+    "image": "images/madras-coffee-menu.jpg",
     "detailDescription": "Strong South Indian filter coffee blended with hot milk for a smooth, aromatic finish."
   },
   {
