@@ -1233,7 +1233,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/goat-dum-biryani.jpg",
+    "image": "images/goat-dum-biryani-menu.jpg",
     "detailDescription": "Goat and basmati rice slow-cooked together in the dum style. The covered cooking method lets the aromas infuse the meat and rice."
   },
   {
@@ -1269,7 +1269,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "images/chicken-dum-biryani.jpg",
+    "image": "images/chicken-dum-biryani-menu.jpg",
     "detailDescription": "Chicken and spiced basmati rice cooked together in the dum style. The covered cooking method lets the flavor of the chicken and spices infuse the rice."
   },
   {
