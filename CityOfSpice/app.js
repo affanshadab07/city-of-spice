@@ -8,10 +8,14 @@ function loadMenu() {
   const published = window.SEED_MENU;
   const saved = read(KEY, published);
   if (!Array.isArray(saved)) return published.map(sanitize);
-  const publishedPhotos = new Map(published.map(dish => [dish.id, dish.image]));
+  const publishedDishes = new Map(published.map(dish => [dish.id, dish]));
   return saved.filter(dish => dish && typeof dish === 'object').map(dish => {
     const item = sanitize(dish);
-    if (!item.image && !item.photoRemoved) item.image = publishedPhotos.get(item.id) || '';
+    const source = publishedDishes.get(item.id);
+    if (!item.image && !item.photoRemoved) item.image = source?.image || '';
+    if (!item.detailDescription && item.description === source?.description) {
+      item.detailDescription = source.detailDescription || '';
+    }
     return item;
   });
 }
@@ -135,7 +139,45 @@ function wireCurryBreadSuggestions() {
   };
 }
 
-function detail(id,quantity=1){const d=menu.find(x=>x.id===id);if(!d)return;if(d.special==='curry'){curryBuilder(d);return}if(d.special==='choice'){choiceBuilder(d);return}open(`<div class="modal-head"><div><span class="eyebrow dark">${esc(d.category)}</span></div><button class="close" data-close aria-label="Close">×</button></div><div class="detail"><div class="detail-visual">${photo(d)}</div><div><h2>${esc(d.name)}</h2><p>${esc(d.detailDescription||d.description)}</p>${d.category.endsWith(' Curries')?`<p>${CURRY_RICE_NOTE}</p>`:''}<div class="tag-row">${d.tags.includes('vegetarian')?'<span class="tag">vegetarian</span>':'<span class="tag">Ask staff about ingredients & allergens</span>'}</div><div class="price">${d.price?money(d.price):'Price to confirm'}</div>${spiceEnabled(d)?spicePicker():''}${d.category.endsWith(' Curries') && d.available ? curryBreadSuggestions() : ''}<p class="muted">Descriptions are for guidance. Ask staff about allergens, dietary restrictions, heat level and substitutions.</p><div class="btn-row"><button class="btn btn-gold" id="detailAdd" ${d.available?'':'disabled'}>${d.available?'＋ Add to my dish list':'Currently unavailable'}</button><button class="btn btn-soft" data-close>Back to menu</button></div></div></div>`);const selectedBread=wireCurryBreadSuggestions();$('detailAdd').onclick=()=>{const bread=selectedBread();if(spiceEnabled(d))addSpiced(d,selectedSpice(),quantity,bread);else add(id,quantity,bread);close()}}
+function detail(id, quantity = 1) {
+  const dish = menu.find(item => item.id === id);
+  if (!dish) return;
+  if (dish.special === 'curry') return curryBuilder(dish);
+  if (dish.special === 'choice') return choiceBuilder(dish);
+
+  const isCurry = dish.category.endsWith(' Curries');
+  const hasSpiceChoice = spiceEnabled(dish);
+  open(`<div class="modal-head dish-detail-head">
+    <span class="eyebrow dark">${esc(dish.category)}</span>
+    <button class="close" data-close aria-label="Close">×</button>
+  </div>
+  <div class="detail dish-detail">
+    <div class="dish-detail-copy">
+      <h2>${esc(dish.name)}</h2>
+      <p class="dish-description">${esc(dish.detailDescription || dish.description)}</p>
+      ${isCurry ? `<p class="dish-serving-note">${CURRY_RICE_NOTE}</p>` : ''}
+      ${dish.tags.includes('vegetarian') ? '<span class="tag dish-detail-tag">Vegetarian</span>' : ''}
+    </div>
+    <div class="detail-visual">${photo(dish)}</div>
+    <div class="dish-order">
+      ${hasSpiceChoice ? spicePicker() : ''}
+      ${isCurry && dish.available ? curryBreadSuggestions() : ''}
+      <div class="dish-order-actions">
+        <span class="dish-detail-price">${dish.price ? money(dish.price) : 'Price to confirm'}</span>
+        <button class="btn btn-gold" id="detailAdd" ${dish.available ? '' : 'disabled'}>${dish.available ? 'Add to dish list' : 'Currently unavailable'}</button>
+      </div>
+      <p class="dish-detail-note">Ask staff about allergens or preparation requests.</p>
+    </div>
+  </div>`);
+  const selectedBread = wireCurryBreadSuggestions();
+  $('detailAdd').onclick = () => {
+    const bread = selectedBread();
+    if (hasSpiceChoice) addSpiced(dish, selectedSpice(), quantity, bread);
+    else add(id, quantity, bread);
+    close();
+  };
+}
+
 function add(id,quantity=1,bread){const d=menu.find(x=>x.id===id);if(!d||!d.available)return;if(d.special==='curry'){curryBuilder(d);return;}if(d.special==='choice'){choiceBuilder(d);return;}if(spiceEnabled(d)){detail(id,quantity);return;}addCartItems(id,quantity,bread);toast(bread?`${d.name} and ${bread.name} added`:`${d.name} added to your list`)}
 function renderCartCount(){const count=Object.values(cart).reduce((a,b)=>a+(Number(b)||0),0);$('cartCount').textContent=count}
 const CURRY_PROTEINS=[

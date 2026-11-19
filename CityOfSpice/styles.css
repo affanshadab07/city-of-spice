@@ -221,3 +221,81 @@
 /* Keep the badge and staff button together at the trailing edge. */
 .topbar { padding-inline: clamp(11px, 2vw, 24px); }
 .topbar .header-halal { margin-inline-start: auto; }
+
+.dish-detail-head { align-items: center; margin-bottom: 12px; }
+.dish-detail {
+  grid-template-columns: minmax(0, 38fr) minmax(0, 62fr);
+  grid-template-areas: "photo copy" "photo order";
+  gap: 16px 22px;
+}
+.dish-detail-copy { grid-area: copy; }
+.dish-detail .detail-visual { grid-area: photo; align-self: start; }
+.dish-detail h2 { margin: 0 0 10px; line-height: 1.12; }
+.dish-detail .dish-description {
+  margin: 0;
+  color: #33251c;
+  font-size: clamp(17px, 1.5vw, 20px);
+  line-height: 1.55;
+}
+.dish-detail .dish-serving-note { margin: 7px 0 0; font-size: 14px; }
+.dish-detail-tag { display: inline-block; margin-top: 9px; }
+.dish-order {
+  grid-area: order;
+  min-width: 0;
+  padding-top: 12px;
+  border-top: 1px solid #eadfce;
+}
+.dish-order .spice-choice { padding: 0; margin: 0; border: 0; }
+.dish-order .spice-title { margin-bottom: 7px; font-size: 13px; }
+.dish-order .spice-title span { display: none; }
+.dish-order .spice-options {
+  display: inline-grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 3px;
+  padding: 3px;
+  border: 1px solid #e9ddcd;
+  border-radius: 12px;
+  background: #f3ebe0;
+}
+.dish-order .spice-options span {
+  display: flex;
+  min-height: 36px;
+  padding-inline: 9px;
+  white-space: nowrap;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+}
+.dish-order .spice-options input:checked + span { background: #463022; box-shadow: none; }
+.dish-order .curry-bread { margin-top: 14px; }
+.dish-order-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px 14px;
+}
+.dish-order .spice-choice ~ .dish-order-actions,
+.dish-order .curry-bread ~ .dish-order-actions {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid #eadfce;
+}
+.dish-order-actions .btn {
+  min-height: 40px;
+  padding: 8px 14px;
+  border-radius: 9px;
+  font-size: 13px;
+}
+.dish-detail-price { color: #3e2b20; font-size: 16px; font-weight: 700; }
+.dish-detail .dish-detail-note { margin: 8px 0 0; font-size: 12px; line-height: 1.45; }
+@media (max-width: 620px) {
+  .dish-detail {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "copy" "photo" "order";
+    gap: 12px;
+  }
+  .dish-detail .detail-visual { min-height: 0; }
+  .dish-detail .detail-visual img { max-height: 180px; }
+  .dish-detail .detail-visual .placeholder { font-size: 56px; }
+}
