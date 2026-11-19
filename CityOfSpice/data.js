@@ -43,7 +43,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "images/gobhi-manchurian.jpg",
+    "image": "images/gobhi-manchurian-menu.jpg",
     "detailDescription": "Crispy cauliflower florets tossed in a savory Indo-Chinese Manchurian sauce. The coating catches the sauce while the cauliflower stays tender inside."
   },
   {
