@@ -1,5 +1,7 @@
+importScripts('./data.js');
+
 const CACHE_PREFIX = 'city-of-spice-menu-';
-const CACHE = CACHE_PREFIX + 'v74';
+const CACHE = CACHE_PREFIX + 'v75';
 const HOME = new URL('./', self.registration.scope);
 const LEGACY_HOME = new URL('index.html', HOME);
 const MENU_FILES = ['./styles.css', './data.js', './app.js', './hero-slideshow.js', './manifest.webmanifest'];
@@ -8,15 +10,16 @@ const CORE = [
   HOME.href, ...MENU_FILES,
   './city-of-spice-logo.jpg', './halal-badge.png', './icon.png', './icon-512.png',
   './images/samosa.jpg', './images/tandoori-chicken.jpg', './images/dosa.jpg',
-  './images/malai-kofta.jpg', './images/lamb-biryani.jpg', './images/chicken-noodles.jpg',
+  './images/malai-kofta.jpg', './images/lamb-biryani.jpg', './images/falooda-menu.jpg',
   './images/bullet-naan.jpg', './images/ras-malai.jpg',
+  ...self.SEED_MENU.filter(dish => dish.image).map(dish => './' + dish.image),
 ];
 
-async function freshMenuResponse(request) {
+async function freshResponse(request) {
   const cache = await caches.open(CACHE);
   let response;
   try {
-    response = await fetch(request, { cache: 'no-cache', redirect: 'error' });
+    response = await fetch(request, { cache: 'no-cache' });
   } catch (error) {
     const saved = await cache.match(request);
     if (saved) return saved;
@@ -30,7 +33,7 @@ async function freshMenuResponse(request) {
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
-    await cache.addAll(CORE.map(url => new Request(url, { cache: 'reload', redirect: 'error' })));
+    await cache.addAll([...new Set(CORE)].map(url => new Request(url, { cache: 'reload' })));
     await self.skipWaiting();
   })());
 });
@@ -54,13 +57,13 @@ self.addEventListener('fetch', event => {
     if (url.pathname === HOME.pathname || url.pathname === LEGACY_HOME.pathname) {
       // Older Home Screen installs can still launch /index.html. Serve the
       // canonical page without Cloudflare's redirect on both launch URLs.
-      event.respondWith(freshMenuResponse(HOME.href));
+      event.respondWith(freshResponse(HOME.href));
     }
     return;
   }
 
-  if (MENU_PATHS.has(url.pathname)) {
-    event.respondWith(freshMenuResponse(request));
+  if (MENU_PATHS.has(url.pathname) || request.destination === 'image') {
+    event.respondWith(freshResponse(request));
     return;
   }
 

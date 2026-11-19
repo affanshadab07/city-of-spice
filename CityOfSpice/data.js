@@ -1,7 +1,7 @@
 /* City of Spice printed menu, two photographed pages supplied 2026-11-16.
    Customer-friendly descriptions are drafts, not verified ingredient or allergen declarations.
    Printed 112 rows plus one custom curry builder; crossed-out Chef Special Fried Rice excluded. */
-window.SEED_MENU = [
+globalThis.SEED_MENU = [
   {
     "id": "printed-20261116-001",
     "name": "Chole Bhature (2 pcs)",
