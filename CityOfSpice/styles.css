@@ -105,3 +105,19 @@
   max-height: none;
   background: none;
 }
+
+.curry-bread {
+  margin-top: 20px;
+  padding: 14px;
+  border: 1px solid #eadcc9;
+  border-radius: 14px;
+  background: #fbf6ee;
+}
+.curry-bread h3 { margin: 0 0 8px; }
+.curry-bread-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 10px;
+}
+.curry-bread-controls .field { flex: 1 1 175px; min-width: 0; }
