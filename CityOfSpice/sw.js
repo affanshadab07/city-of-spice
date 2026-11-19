@@ -1,5 +1,5 @@
 const CACHE_PREFIX = 'city-of-spice-menu-';
-const CACHE = CACHE_PREFIX + 'v39';
+const CACHE = CACHE_PREFIX + 'v40';
 const HOME = new URL('./', self.registration.scope);
 const LEGACY_HOME = new URL('index.html', HOME);
 const CORE = [
