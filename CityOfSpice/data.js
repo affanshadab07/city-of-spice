@@ -1257,7 +1257,7 @@ window.SEED_MENU = [
     "emoji": "🍚",
     "tags": [],
     "available": true,
-    "image": "",
+    "image": "images/chicken-boneless-biryani.jpg",
     "detailDescription": "Fragrant biryani rice with pieces of boneless chicken. The chicken and aromatic spices season the long grains throughout."
   },
   {
