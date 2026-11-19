@@ -309,3 +309,13 @@
 
 .dish-order-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .dish-quantity output { min-width: 22px; text-align: center; font-weight: 700; }
+
+.menu-share-wrap { max-width: 900px; margin: 0 auto; padding: 48px 24px 56px; }
+.share-menu { display: flex; align-items: center; justify-content: space-between; gap: 28px; padding: 28px 32px; border: 1px solid #e9dac2; border-radius: 16px; background: #fffaf1; }
+.share-menu h2 { font-size: clamp(28px, 5vw, 38px); margin: 0 0 8px; }
+.share-menu p { margin: 0 0 14px; color: #655447; }
+.share-menu a { color: #57351e; font-weight: 700; text-underline-offset: 4px; }
+.share-menu img { display: block; width: 176px; height: auto; border-radius: 8px; }
+@media (max-width: 480px) {
+  .share-menu { flex-direction: column; text-align: center; padding: 24px 16px; }
+}
