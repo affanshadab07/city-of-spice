@@ -49,10 +49,10 @@ function curryBreadSuggestions() {
       </label>
       <div class="curry-qty" role="group" aria-label="Bread quantity">
         <button type="button" id="breadMinus" aria-label="Decrease bread quantity" disabled>−</button>
-        <b id="breadQuantity" aria-live="polite">1</b>
+        <b id="breadQuantity" aria-live="polite">0</b>
         <button type="button" id="breadPlus" aria-label="Increase bread quantity">+</button>
       </div>
-      <button type="button" class="btn btn-soft" id="addCurryBread">＋ Add bread</button>
+      <button type="button" class="btn btn-soft" id="addCurryBread" disabled>＋ Add bread</button>
     </div>
   </section>`;
 }
@@ -62,21 +62,22 @@ function wireCurryBreadSuggestions() {
   const bread = $('curryBread');
   const minus = $('breadMinus');
   const plus = $('breadPlus');
-  let quantity = 1;
+  let quantity = 0;
 
   function setQuantity(value) {
     quantity = value;
     $('breadQuantity').textContent = quantity;
-    minus.disabled = quantity === 1;
+    minus.disabled = quantity === 0;
+    button.disabled = quantity === 0;
     plus.disabled = quantity === 99;
   }
 
   minus.onclick = () => setQuantity(quantity - 1);
   plus.onclick = () => setQuantity(quantity + 1);
-  bread.onchange = () => setQuantity(1);
+  bread.onchange = () => setQuantity(0);
   button.onclick = () => {
     add(bread.value, quantity);
-    if ($('addCurryBread') === button) setQuantity(1);
+    if ($('addCurryBread') === button) setQuantity(0);
   };
 }
 
