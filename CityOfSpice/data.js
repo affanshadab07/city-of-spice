@@ -1461,7 +1461,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/mexican-coca-cola.jpg",
     "detailDescription": "Mexican Coca-Cola with the familiar fizzy cola flavor. Choose this separately from the soft drink selection."
   },
   {
@@ -1475,7 +1475,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/apple-juice.jpg",
     "detailDescription": "A sweet apple drink with a mellow fruit flavor. A still drink option alongside the carbonated soft drinks."
   },
   {
@@ -1524,7 +1524,7 @@ window.SEED_MENU = [
       "vegetarian"
     ],
     "available": true,
-    "image": "",
+    "image": "images/thums-up.jpg",
     "special": "choice",
     "choices": [
       "Thums Up",
