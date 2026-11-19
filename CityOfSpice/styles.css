@@ -94,7 +94,6 @@
   outline: 2px solid #a56b2f;
   outline-offset: 3px;
 }
-.dish-card .add { position: relative; z-index: 2; }
 .photo-view-label { z-index: 2; border: 0; cursor: zoom-in; }
 .photo-view-label {
   position: absolute;
@@ -299,3 +298,6 @@
   .dish-detail .detail-visual img { max-height: 180px; }
   .dish-detail .detail-visual .placeholder { font-size: 56px; }
 }
+
+.dish-order-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.dish-quantity output { min-width: 22px; text-align: center; font-weight: 700; }

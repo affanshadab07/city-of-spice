@@ -78,7 +78,9 @@ function showMenu() {
   $('resultsInfo').textContent = term
     ? `Showing ${list.length} of ${menu.length} dishes across the full menu`
     : `Showing ${list.length} of ${menu.length} dishes`;
- $('dishGrid').innerHTML=list.map(d=>`<article class="dish-card ${d.available?'':'unavailable'}"><div class="dish-photo">${photo(d)}${d.image?`<button type="button" class="photo-view-label" data-photo="${esc(d.id)}" aria-label="View full photo of ${esc(d.name)}">View photo</button>`:''}${!d.available?'<span class="pill photo-badge">Unavailable</span>':''}</div><div class="dish-content"><h3><button type="button" class="dish-open" data-detail="${esc(d.id)}" aria-label="Read about ${esc(d.name)}">${esc(d.name)}</button></h3><p>${esc(d.description)}</p><div class="tag-row">${d.tags.includes('vegetarian')?'<span class="tag">🥬 vegetarian</span>':''}</div><div class="dish-bottom"><span class="price">${d.special==='curry'?'Choose protein':d.price?money(d.price):'Ask staff'}</span><div class="small-actions"><button class="add" data-add="${esc(d.id)}" ${!d.available?'disabled':''} aria-label="Add ${esc(d.name)} to list">${d.available?'+':'N/A'}</button></div></div></div></article>`).join('');$('empty').classList.toggle('hidden',!!list.length);document.querySelectorAll('[data-detail]').forEach(x=>x.onclick=()=>detail(x.dataset.detail));document.querySelectorAll('[data-photo]').forEach(button=>button.onclick=()=>viewDishPhoto(button.dataset.photo));document.querySelectorAll('[data-add]').forEach(x=>x.onclick=()=>add(x.dataset.add));renderCartCount()}
+ $('dishGrid').innerHTML=list.map(d=>`<article class="dish-card ${d.available?'':'unavailable'}"><div class="dish-photo">${photo(d)}${d.image?`<button type="button" class="photo-view-label" data-photo="${esc(d.id)}" aria-label="View full photo of ${esc(d.name)}">View photo</button>`:''}${!d.available?'<span class="pill photo-badge">Unavailable</span>':''}</div><div class="dish-content"><h3><button type="button" class="dish-open" data-detail="${esc(d.id)}" aria-label="Read about ${esc(d.name)}">${esc(d.name)}</button></h3><p>${esc(d.description)}</p><div class="tag-row">${d.tags.includes('vegetarian')?'<span class="tag">🥬 vegetarian</span>':''}</div><div class="dish-bottom"><span class="price">${d.special==='curry'?'Choose protein':d.price?money(d.price):'Ask staff'}</span></div></div></article>`).join('');$('empty').classList.toggle('hidden',!!list.length);document.querySelectorAll('[data-detail]').forEach(x=>x.onclick=()=>detail(x.dataset.detail));document.querySelectorAll('[data-photo]').forEach(button=>button.onclick=()=>viewDishPhoto(button.dataset.photo));
+  renderCartCount();
+}
 function open(content,wide=false){$('dialog').innerHTML=content;$('dialog').classList.toggle('wide',wide);$('modalLayer').classList.remove('hidden');$('modalLayer').setAttribute('aria-hidden','false');$('dialog').querySelectorAll('[data-close]').forEach(b=>b.onclick=close)}
 function close(){$('modalLayer').classList.add('hidden');$('modalLayer').setAttribute('aria-hidden','true');$('dialog').innerHTML=''}$('modalBackdrop').onclick=close;document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 function viewDishPhoto(id) {
@@ -139,11 +141,35 @@ function wireCurryBreadSuggestions() {
   };
 }
 
+function dishQuantityPicker(quantity) {
+  return `<div class="curry-qty dish-quantity" role="group" aria-label="Dish quantity">
+    <button type="button" data-quantity-minus aria-label="Decrease dish quantity">−</button>
+    <output data-quantity-value aria-label="Dish quantity">${quantity}</output>
+    <button type="button" data-quantity-plus aria-label="Increase dish quantity">+</button>
+  </div>`;
+}
+
+function wireDishQuantity(container, quantity, onChange = () => {}) {
+  const minus = container.querySelector('[data-quantity-minus]');
+  const plus = container.querySelector('[data-quantity-plus]');
+  const value = container.querySelector('[data-quantity-value]');
+  function update() {
+    value.textContent = quantity;
+    minus.disabled = quantity <= 1;
+    plus.disabled = quantity >= 99;
+    onChange(quantity);
+  }
+  minus.onclick = () => { quantity--; update(); };
+  plus.onclick = () => { quantity++; update(); };
+  update();
+  return () => quantity;
+}
+
 function detail(id, quantity = 1) {
   const dish = menu.find(item => item.id === id);
   if (!dish) return;
-  if (dish.special === 'curry') return curryBuilder(dish);
-  if (dish.special === 'choice') return choiceBuilder(dish);
+  if (dish.special === 'curry') return curryBuilder(dish, quantity);
+  if (dish.special === 'choice') return choiceBuilder(dish, quantity);
 
   const isCurry = dish.category.endsWith(' Curries');
   const hasSpiceChoice = spiceEnabled(dish);
@@ -163,22 +189,31 @@ function detail(id, quantity = 1) {
       ${hasSpiceChoice ? spicePicker() : ''}
       ${isCurry && dish.available ? curryBreadSuggestions() : ''}
       <div class="dish-order-actions">
-        <span class="dish-detail-price">${dish.price ? money(dish.price) : 'Price to confirm'}</span>
-        <button class="btn btn-gold" id="detailAdd" ${dish.available ? '' : 'disabled'}>${dish.available ? 'Add to dish list' : 'Currently unavailable'}</button>
+        <span class="dish-detail-price" id="detailPrice">${dish.price ? money(dish.price * quantity) : 'Price to confirm'}</span>
+        <div class="dish-order-controls">
+          ${dish.available ? dishQuantityPicker(quantity) : ''}
+          <button class="btn btn-gold" id="detailAdd" ${dish.available ? '' : 'disabled'}>${dish.available ? `Add ${quantity} to dish list` : 'Currently unavailable'}</button>
+        </div>
       </div>
       <p class="dish-detail-note">Ask staff about allergens or preparation requests.</p>
     </div>
   </div>`);
   const selectedBread = wireCurryBreadSuggestions();
-  $('detailAdd').onclick = () => {
+  if (!dish.available) return;
+  const addButton = $('detailAdd');
+  const currentQuantity = wireDishQuantity($('dialog'), quantity, count => {
+    addButton.textContent = `Add ${count} to dish list`;
+    if (dish.price) $('detailPrice').textContent = money(dish.price * count);
+  });
+  addButton.onclick = () => {
     const bread = selectedBread();
-    if (hasSpiceChoice) addSpiced(dish, selectedSpice(), quantity, bread);
-    else add(id, quantity, bread);
+    if (hasSpiceChoice) addSpiced(dish, selectedSpice(), currentQuantity(), bread);
+    else add(id, currentQuantity(), bread);
     close();
   };
 }
 
-function add(id,quantity=1,bread){const d=menu.find(x=>x.id===id);if(!d||!d.available)return;if(d.special==='curry'){curryBuilder(d);return;}if(d.special==='choice'){choiceBuilder(d);return;}if(spiceEnabled(d)){detail(id,quantity);return;}addCartItems(id,quantity,bread);toast(bread?`${d.name} and ${bread.name} added`:`${d.name} added to your list`)}
+function add(id,quantity=1,bread){const d=menu.find(x=>x.id===id);if(!d||!d.available)return;if(d.special==='curry'){curryBuilder(d,quantity);return;}if(d.special==='choice'){choiceBuilder(d,quantity);return;}if(spiceEnabled(d)){detail(id,quantity);return;}addCartItems(id,quantity,bread);toast(bread?`${d.name} and ${bread.name} added`:`${d.name} added to your list`)}
 function renderCartCount(){const count=Object.values(cart).reduce((a,b)=>a+(Number(b)||0),0);$('cartCount').textContent=count}
 const CURRY_PROTEINS=[
  {name:'Chicken',price:16.99},{name:'Goat',price:18.99},{name:'Beef',price:18.99},
@@ -200,8 +235,8 @@ const CURRY_SAUCE_INFO=[
  {name:'Palak/Saag',description:'A gently spiced leafy-green gravy with a savory finish.',details:"Your choice of protein simmered in a mildly seasoned, smooth gravy made from puréed spinach.",heat:'Mild–medium'}
 ];
 const CURRY_SAUCES=CURRY_SAUCE_INFO.map(s=>s.name);
-function curryBuilder(d){
- let selected='Tikka Masala',quantity=1;
+function curryBuilder(d, quantity = 1){
+ let selected='Tikka Masala';
  open(`<div class="modal-head"><div><span class="eyebrow dark">NON-VEGETARIAN CURRIES</span><h2 class="modal-title">Discover your curry</h2><p class="muted">${esc(d.detailDescription||d.description)}</p><p>${CURRY_RICE_NOTE}</p></div><button class="close" data-close aria-label="Close">×</button></div>
  <div class="curry-config hybrid-curry"><label class="field">1. Choose your protein<select id="curryProtein">${CURRY_PROTEINS.map(p=>`<option value="${esc(p.name)}" ${p.price===null?'disabled':''}>${esc(p.name)} · ${p.price===null?'Price to confirm':money(p.price)}</option>`).join('')}</select></label>
  <div><div class="sauce-title">2. Choose your sauce <span>Tap a card to read its flavor description</span></div><div class="sauce-grid" id="sauceGrid" role="group" aria-label="Curry sauce styles">${CURRY_SAUCE_INFO.map(s=>`<button type="button" class="sauce-tile ${s.name===selected?'selected':''}" data-sauce="${esc(s.name)}" aria-pressed="${s.name===selected}"><span class="sauce-tile-heading"><strong>${esc(s.name)}</strong><span class="sauce-check" aria-hidden="true">${s.name===selected?'✓':''}</span></span><span class="sauce-desc">${esc(s.description)}</span><span class="sauce-heat">${esc(s.heat)}</span></button>`).join('')}</div></div>
@@ -210,14 +245,23 @@ function curryBuilder(d){
  <div class="curry-action-row"><div class="curry-qty" aria-label="Quantity"><button type="button" id="curryMinus" aria-label="Decrease quantity">−</button><b id="curryQuantity">1</b><button type="button" id="curryPlus" aria-label="Increase quantity">+</button></div><button type="button" id="addCurry" class="btn btn-gold">＋ Add to my dish list</button></div>
  </div><p class="muted curry-disclaimer">Sauce descriptions and heat levels are illustrative. Ingredients, allergens, preparation and availability must be confirmed with City of Spice staff. Lamb pricing is pending verification.</p>`,true);
  const selectedBread=wireCurryBreadSuggestions();
- const update=()=>{const p=CURRY_PROTEINS.find(x=>x.name===$('curryProtein').value),s=CURRY_SAUCE_INFO.find(x=>x.name===selected);$('currySelection').textContent=p.name+' '+selected+' · '+selectedSpice('currySpice');$('currySelectedDesc').textContent=s.details;$('curryPrice').textContent=p.price===null?'Price to confirm':money(p.price*quantity);$('curryQuantity').textContent=quantity;$('curryMinus').disabled=quantity<=1;$('curryPlus').disabled=quantity>=20;$('addCurry').disabled=p.price===null;};
+ const update=()=>{const p=CURRY_PROTEINS.find(x=>x.name===$('curryProtein').value),s=CURRY_SAUCE_INFO.find(x=>x.name===selected);$('currySelection').textContent=p.name+' '+selected+' · '+selectedSpice('currySpice');$('currySelectedDesc').textContent=s.details;$('curryPrice').textContent=p.price===null?'Price to confirm':money(p.price*quantity);$('curryQuantity').textContent=quantity;$('curryMinus').disabled=quantity<=1;$('curryPlus').disabled=quantity>=20;$('addCurry').disabled=p.price===null;$('addCurry').textContent=`Add ${quantity} to dish list`;};
  document.querySelectorAll('[data-sauce]').forEach(b=>b.onclick=()=>{selected=b.dataset.sauce;document.querySelectorAll('[data-sauce]').forEach(x=>{const on=x.dataset.sauce===selected;x.classList.toggle('selected',on);x.setAttribute('aria-pressed',String(on));x.querySelector('.sauce-check').textContent=on?'✓':'';});update()});
  document.querySelectorAll('input[name="currySpice"]').forEach(x=>x.onchange=update);$('curryProtein').onchange=update;$('curryMinus').onclick=()=>{quantity=Math.max(1,quantity-1);update()};$('curryPlus').onclick=()=>{quantity=Math.min(20,quantity+1);update()};
  $('addCurry').onclick=()=>{const p=CURRY_PROTEINS.find(x=>x.name===$('curryProtein').value);if(!p||p.price===null)return toast('Price needs confirmation');const level=selectedSpice('currySpice');const id='curry|'+p.name+'|'+selected+'|'+level;const bread=selectedBread();addCartItems(id,quantity,bread);toast(bread?`${p.name} ${selected} and ${bread.name} added`:`${quantity} × ${p.name} ${selected} (${level}) added`);close()};update();
 }
-function choiceBuilder(d){
- open(`<div class="modal-head"><div><span class="eyebrow dark">DRINKS</span><h2 class="modal-title">Choose your drink</h2><p class="muted">All options ${money(d.price)} each</p><p>${esc(d.detailDescription||d.description)}</p></div><button class="close" data-close>×</button></div><label class="field">Select a drink<select id="drinkChoice">${d.choices.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select></label><div class="btn-row"><button id="addDrinkChoice" class="btn btn-gold">＋ Add to my dish list</button></div>`);
- $('addDrinkChoice').onclick=()=>{const id='choice|'+d.id+'|'+$('drinkChoice').value;cart[id]=Math.min(99,(Number(cart[id])||0)+1);persist(CARTKEY,cart);renderCartCount();toast($('drinkChoice').value+' added');close()};
+function choiceBuilder(d, quantity = 1){
+ open(`<div class="modal-head"><div><span class="eyebrow dark">DRINKS</span><h2 class="modal-title">Choose your drink</h2><p class="muted">All options ${money(d.price)} each</p><p>${esc(d.detailDescription||d.description)}</p></div><button class="close" data-close>×</button></div><label class="field">Select a drink<select id="drinkChoice">${d.choices.map(c=>`<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select></label><div class="dish-order-controls">${dishQuantityPicker(quantity)}<button id="addDrinkChoice" class="btn btn-gold">Add ${quantity} to dish list</button></div>`);
+ const addButton = $('addDrinkChoice');
+ const currentQuantity = wireDishQuantity($('dialog'), quantity, count => {
+   addButton.textContent = `Add ${count} to dish list`;
+ });
+ addButton.onclick = () => {
+   const drink = $('drinkChoice').value;
+   addCartItems('choice|' + d.id + '|' + drink, currentQuantity());
+   toast(`${currentQuantity()} × ${drink} added`);
+   close();
+ };
 }
 function resolveCartDish(id){
  const found=menu.find(d=>d.id===id);
