@@ -39,6 +39,8 @@ const CURRY_RICE_NOTE = 'Served with a small bowl of rice.';
 function curryBreadSuggestions() {
   const breads = menu.filter(dish => dish.category === 'Indian Breads' && dish.available);
   if (!breads.length) return '';
+  const plainNaan = breads.findIndex(dish => dish.name.trim().toLowerCase() === 'plain naan');
+  if (plainNaan > 0) breads.unshift(...breads.splice(plainNaan, 1));
   return `<section class="curry-bread">
     <h3>Goes well with bread</h3>
     <div class="curry-bread-controls">
